@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Shiqing's Website</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Shiqing's Website</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+<nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
+    <div class="mx-auto sticky-top">
+        <a class="navbar-brand" href="#" style="color:black"><h2>Shiqing Wu</h2></a>
+        <button class="btn d-md-none p-0 ml-3 mb-2" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title>
+                <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
+            </svg>
+        </button>
     </div>
-  </nav>
-  <h1>test</h1>
-  <div id="like_button_container" style="background:black"></div>
+</nav>
+<div id="particles-js"></div>
 
-  <!--  load React  -->
-  <script src="js/react.min.js"></script>
-  <script src="js/react-dom.min.js"></script>
-  <!--  load React components  -->
-  <script src="components/test.js" type="text/babel"></script>
+<div class="container rounded-lg main-page" style="background:white; opacity:80%;">
+    <div class="row flex-xl-nowrap" >
+        <div class="col-sm-4 col-md-3 text-center bd-sidebar">
+            <div class="collapse d-md-block row text-center sticky-top" id="navcontent">
+                <nav class="nav flex-column mx-auto" aria-label="Main navigation">
+                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link disabled" href="#">Bio</a>
+                    <a class="nav-link disabled" href="#">Publications</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Honors</a>
+                </nav>
+            </div>
+        </div>
+        <main class="col-sm-8 col-md-9 bd-content" role="main">
+            <div class="container">
+                <div id="home" style="height:2000px"></div>
+                <div id="bio"></div>
+                <div id="news"></div>
+                <div id="publications"></div>
+            </div>
+        </main>
+    </div>
+</div>
+<!--<main class="col-sm-9 bd-content border" role="main">-->
+<!--    <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">-->
+<!--        <a class="btn btn-sm btn-bd-light my-2 my-md-0" href="https://github.com/twbs/bootstrap/blob/v4-dev/site/content/docs/components/navbar.md" title="View and edit this file on GitHub"-->
+<!--           target="_blank" rel="noopener">View on GitHub</a>-->
+<!--        <h1 class="bd-title" id="content">Navbar</h1>-->
+<!--    </div>-->
+<!--</main>-->
+
+
+<!--  <h1>test</h1>-->
+<!--  <div id="like_button_container" style="background:black"></div>-->
+
+<!--  Load React  -->
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<script src="js/babel.js"></script>
+
+<!--  Load React components  -->
+<script src="components.js" type="text/babel"></script>
+
+<!--  Load JS  -->
+<script src="js/jQuery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="particles/particles.js"></script>
+<script src="particles/app.js"></script>
+
 </body>
 </html>

@@ -1,3 +1,15 @@
+class Home extends React.Component{
+    render(){
+        return(
+          <div class="row text-center">
+            <div class="col-sm-3">
+            <img src="files/photo.jpg" class="img-thumbnail" alt="..."></img>
+            </div>
+            <div class="col-sm-8">col</div>
+          </div>
+        )
+    }
+}
 class Bio extends React.Component{
     render(){
         return(
@@ -7,10 +19,6 @@ class Bio extends React.Component{
 }
 
 ReactDOM.render(
-  <Bio />,
-  document.getElementById('bio')
-);
-ReactDOM.render(
-  <Bio />,
-  document.getElementById('publications')
+  <Home />,
+  document.getElementById('home')
 );

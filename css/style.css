@@ -1,0 +1,22 @@
+html,body{
+	margin:0;
+	height:100%;
+}
+#particles-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.main-page{
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform:translate(-50%);
+
+}
