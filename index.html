@@ -5,43 +5,113 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
-    <div class="mx-auto sticky-top">
-        <a class="navbar-brand" href="#" style="color:black"><h2>Shiqing Wu</h2></a>
-        <button class="btn d-md-none p-0 ml-3 mb-2" type="button" data-toggle="collapse" data-target="#navcontent" aria-controls="navcontent" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title>
-                <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/>
-            </svg>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">Shiqing Wu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#edu" tabindex="-1" aria-disabled="true">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Honors</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home111 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 <div id="particles-js"></div>
 
-<div class="container rounded-lg main-page" style="background:white; opacity:80%;">
-    <div class="row flex-xl-nowrap" >
-        <div class="col-sm-4 col-md-3 text-center bd-sidebar">
-            <div class="collapse d-md-block row text-center sticky-top" id="navcontent">
-                <nav class="nav flex-column mx-auto" aria-label="Main navigation">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link disabled" href="#">Bio</a>
-                    <a class="nav-link disabled" href="#">Publications</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Honors</a>
-                </nav>
+<div class="container main-page">
+    <div class="row flex-xl-nowrap">
+        <main class="col-sm-9 bd-content" role="main">
+            <div id="home" class="rounded-lg right-panel">
+                <div class="row text-center">
+                    <div class="col-sm-3">
+                        <img src="files/photo.jpg" class="img-thumbnail" alt="..."></img>
+                    </div>
+                    <div class="col-sm-8">
+                        col
+                    </div>
+                </div>
+            </div>
+            <div id="bio" class="rounded-lg right-panel animated">
+                <h3 class="section-title">Short Bio</h3>
+                <ul>
+                    <li>
+                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
+                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
+                    </li>
+                    <li>
+                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
+                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
+                    </li>
+                    <li>
+                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
+                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
+                    </li>
+                    <li>
+                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
+                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="edu" class="rounded-lg right-panel">
+                <h3 class="section-title">Education</h3>
+                <dl class="row">
+                    <dd class="col-sm-2">2019-Present</dd>
+                    <dd class="col-sm-10">Doctor of Philosophy <br> University of Tasmania, Hobart, TAS, Australia.</dd>
+
+                    <dd class="col-sm-2">2018-2019</dd>
+                    <dd class="col-sm-10">Doctor of Philosophy (Transferred to the University of Tasmania). <br> Auckland University of Technology, Auckland, New Zealand.</dd>
+
+                    <dd class="col-sm-2">2016-2018</dd>
+                    <dd class="col-sm-10">Master of Computer and Information Sciences (Upgraded to Ph.D. programme). <br> Auckland University of Technology, Auckland, New Zealand.</dd>
+
+                    <dd class="col-sm-2">2013-2016</dd>
+                    <dd class="col-sm-10">Bachelor of Computer and Information Sciences. <br> Auckland University of Technology, Auckland, New Zealand.</dd>
+
+                    <dd class="col-sm-2">2012-2016</dd>
+                    <dd class="col-sm-10">Bachelor of Computer Science and Technology. <br> China Jiliang University, Hangzhou, Zhejiang, China.</dd>
+                </dl>
+            </div>
+            <div id="publications" class="rounded-lg right-panel"></div>
+            <div id="Services" class="rounded-lg right-panel"></div>
+            <div id="Hornors" class="rounded-lg right-panel"></div>
+        </main>
+        <div class="col-sm-3 bd-sidebar">
+            <div class="rounded-lg left-panel shadow-lg p-3 mb-5" id="news">
             </div>
         </div>
-        <main class="col-sm-8 col-md-9 bd-content" role="main">
-            <div class="container">
-                <div id="home" style="height:2000px"></div>
-                <div id="bio"></div>
-                <div id="news"></div>
-                <div id="publications"></div>
-            </div>
-        </main>
     </div>
 </div>
+<div style="margin-top:50px;height: 120px"></div>
 <!--<main class="col-sm-9 bd-content border" role="main">-->
 <!--    <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">-->
 <!--        <a class="btn btn-sm btn-bd-light my-2 my-md-0" href="https://github.com/twbs/bootstrap/blob/v4-dev/site/content/docs/components/navbar.md" title="View and edit this file on GitHub"-->
@@ -63,10 +133,13 @@
 <script src="components.js" type="text/babel"></script>
 
 <!--  Load JS  -->
-<script src="js/jQuery.js"></script>
+<script src="js/jquery.min.js"></script>
+<!--<script src="js/jquery.easing.min.js"></script>-->
+
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="particles/particles.js"></script>
 <script src="particles/app.js"></script>
+<script src="effect.js"></script>
 
 </body>
 </html>
