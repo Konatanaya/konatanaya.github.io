@@ -30,27 +30,3 @@ $(window).scroll(function(){
         }
     }
 });
-
-//$(document).ready(function () {
-//
-//    // Scroll spy
-//    $('body').scrollspy({
-//        target: "#navbar"
-//    });
-//
-//    // Navbar fade
-//    changeNavbar();
-//
-//    $(window).scroll(function () {
-//        changeNavbar();
-//    });
-//
-//    function changeNavbar() {
-//        var navbar = $("#navbar");
-//        if ($(this).scrollTop() >= 100) {
-//            navbar.addClass("bg-light").removeClass("bg-transparent");
-//        } else if ($(this).scrollTop() < 100) {
-//            navbar.removeClass("bg-light").addClass("bg-transparent");
-//        }
-//    }
-//});

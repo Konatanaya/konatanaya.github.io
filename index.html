@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0,0,0,0.75);" id="navbar">
     <div class="container">
         <a class="navbar-brand" href="#">Shiqing Wu</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -26,16 +26,19 @@
                     <a class="nav-link" href="#bio">Bio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#edu" tabindex="-1" aria-disabled="true">Education</a>
+                    <a class="nav-link" href="#edu">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Publications</a>
+                    <a class="nav-link" href="#publications">Publications</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Services</a>
+                    <a class="nav-link" href="#teaching">Teaching</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Honors</a>
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#honors">Honors</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -48,21 +51,31 @@
 </nav>
 <div id="particles-js"></div>
 
-<div class="container main-page">
+<div class="container main-page text-color">
     <div class="row flex-xl-nowrap">
-        <main class="col-sm-9 bd-content" role="main">
+        <main class="col-sm-9 bd-content order-2 order-sm-1" role="main">
             <div id="home" class="rounded-lg right-panel">
-                <div class="row text-center">
+                <div class="row text-left">
                     <div class="col-sm-3">
                         <img src="files/photo.jpg" class="img-thumbnail" alt="..."></img>
                     </div>
                     <div class="col-sm-8">
-                        col
+                        <h2>Shiqing Wu</h2>
+                        Doctoral Candidate
+                        <br><br>
+                        Discipline of Information & Communication Technology (ICT)<br>
+                        School of Technology, Environments and Design (TED)<br>
+                        College of Sciences and Engineering (CoSE)<br>
+                        University of Tasmania (UTAS), Australia
+                        <br><br>
+                        Email: <a href="mailto:shiqing.wu@utas.edu.au" class="text-light">shiqing.wu@utas.edu.au</a><br>
+                        Location: Room 107, Engineering Building, University of Tasmania, Sandy Bay, Hobart, TAS, Australia.
+
                     </div>
                 </div>
             </div>
-            <div id="bio" class="rounded-lg right-panel animated">
-                <h3 class="section-title">Short Bio</h3>
+            <div id="bio" class="rounded-lg right-panel">
+                <h4 class="section-title border-light">Short Bio</h4>
                 <ul>
                     <li>
                         <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
@@ -83,8 +96,8 @@
                 </ul>
             </div>
             <div id="edu" class="rounded-lg right-panel">
-                <h3 class="section-title">Education</h3>
-                <dl class="row">
+                <h4 class="section-title">Education</h4>
+                <dl class="row text-light">
                     <dd class="col-sm-2">2019-Present</dd>
                     <dd class="col-sm-10">Doctor of Philosophy <br> University of Tasmania, Hobart, TAS, Australia.</dd>
 
@@ -102,16 +115,41 @@
                 </dl>
             </div>
             <div id="publications" class="rounded-lg right-panel"></div>
-            <div id="Services" class="rounded-lg right-panel"></div>
-            <div id="Hornors" class="rounded-lg right-panel"></div>
+            <div id="teaching" class="rounded-lg right-panel">
+                <h4 class="section-title">Teaching</h4>
+                <h5 class="subsection-title">At University of Tasmania</h5>
+                <ul>
+                    <li>KIT306/606: Data Analytics, Spring, 2020</li>
+                </ul>
+                <h5 class="subsection-title">At Auckland University of Technology</h5>
+                <ul>
+                    <li>COMP603: Program Design and Construction, Autumn and Spring, 2017-2019</li>
+                    <li>ENSE600: Software Construction, Autumn and Spring, 2018-2019</li>
+                </ul>
+
+            </div>
+            <div id="services" class="rounded-lg right-panel">
+                <h4 class="section-title">Services</h4>
+                <ul>
+                    <li>Reviewer of the Principle and practice of data and Knowledge Acquisition Workshop (PKAW), 2020.</li>
+                    <li>Reviewer of the Journal of Computers in Human Behavior, 2019.</li>
+                    <li>Reviewer of the 16th Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2019.</li>
+                    <li>Reviewer of the 21st International Conference on Principles and Practice of Multi-Agent Systems (PRIMA), 2018.</li>
+                    <li>Reviewer of the 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI), 2018.</li>
+                    <li>Reviewer of the 15th Pacific Rim Knowledge Acquisition Workshop (PKAW), 2018.</li>
+                </ul>
+            </div>
+            <div id="honors" class="rounded-lg right-panel"></div>
         </main>
-        <div class="col-sm-3 bd-sidebar">
+        <div class="col-sm-3 bd-sidebar order-1 order-sm-2">
             <div class="rounded-lg left-panel shadow-lg p-3 mb-5" id="news">
             </div>
         </div>
     </div>
 </div>
-<div style="margin-top:50px;height: 120px"></div>
+<div class="footer text-light text-center">
+    Last update: December 2020.
+</div>
 <!--<main class="col-sm-9 bd-content border" role="main">-->
 <!--    <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">-->
 <!--        <a class="btn btn-sm btn-bd-light my-2 my-md-0" href="https://github.com/twbs/bootstrap/blob/v4-dev/site/content/docs/components/navbar.md" title="View and edit this file on GitHub"-->
@@ -130,8 +168,9 @@
 <script src="js/babel.js"></script>
 
 <!--  Load React components  -->
-<script src="components.js" type="text/babel"></script>
-
+<script src="files/publications.js" type="text/babel"></script>
+<script src="files/components.js" type="text/babel"></script>
+<script src="files/teaching.js" type="text/babel"></script>
 <!--  Load JS  -->
 <script src="js/jquery.min.js"></script>
 <!--<script src="js/jquery.easing.min.js"></script>-->
@@ -139,7 +178,8 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="particles/particles.js"></script>
 <script src="particles/app.js"></script>
-<script src="effect.js"></script>
+<script src="files/effect.js"></script>
+
 
 </body>
 </html>
