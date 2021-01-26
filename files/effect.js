@@ -19,3 +19,12 @@ $(".nav .nav-link").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     $(this).addClass("active");
 });
+
+$("#news_button").on("click", function(){
+    if($("#news_span").html()==="Show News"){
+        $("#news_span").text("Hide News");
+    }
+    else{
+        $("#news_span").text("Show News");
+    }
+});
