@@ -19,24 +19,3 @@ $(".nav .nav-link").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     $(this).addClass("active");
 });
-
-
-$(document).ready(function () {
-    if ( $(window).width() < 992) {
-        $('#news_list').addClass('collapse');
-    }
-});
-
-var setDivsState=function(){
-    if ( $(window).width() < 992) {
-        $(function(){
-                $('#news_list').addClass('collapse');
-        });
-    }
-    else {
-        $(function(){
-                $('#news_list').removeClass('collapse');
-        });
-    }
-}
-$(window).resize(setDivsState);
