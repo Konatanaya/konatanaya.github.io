@@ -1,7 +1,7 @@
 var headerHeight = $("#navbar").height();
 
 // Attach the click event
-$('nav ul li a').bind("click", function(e) {
+$('a').bind("click", function(e) {
 
     var target = $(this).attr("href"); //Get the target
     var scrollToPosition = $(target).offset().top - headerHeight-50;
