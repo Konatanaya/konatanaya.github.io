@@ -74,8 +74,8 @@ class Publications extends React.Component{
                     })
                     return (
                         [<dd key={'j'+i} class="col-sm-1">[J{i}]</dd>,
-                        <dd key={'J'+i} class="col-sm-11">{authors}. {item.title}. <i>{item.publisher}</i>, {item.year}. <a href={item.pdf} target="_blank" type="button" class="btn
-                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
+                        <dd key={'J'+i} class="col-sm-11">{authors}. {item.title}. <i>{item.publisher}</i>, {item.year}. <a href={item.pdf} target="_blank" class="btn
+                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" class="btn btn-outline-light
                         btn-xs disabled">Bibtex</a></dd>]
                     )
                 })
@@ -115,8 +115,8 @@ class Publications extends React.Component{
                     })
                     return (
                         [<dd key={'C'+i} class="col-sm-1">[C{i}]</dd>,
-                        <dd key={'C'+i} class="col-sm-11">{authors}. {item.title}. In: <i>{item.proceeding}</i>, {item.year}. <a href={item.pdf} target="_blank" type="button" class="btn
-                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
+                        <dd key={'C'+i} class="col-sm-11">{authors}. {item.title}. In: <i>{item.proceeding}</i>, {item.year}. <a href={item.pdf} target="_blank" class="btn
+                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" class="btn btn-outline-light
                         btn-xs disabled">Bibtex</a></dd>]
                     )
                 })
