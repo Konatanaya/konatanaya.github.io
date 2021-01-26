@@ -1,3 +1,5 @@
+
+
 var headerHeight = $("#navbar").height();
 
 
@@ -18,8 +20,15 @@ $(".nav .nav-link").on("click", function(){
     $(this).addClass("active");
 });
 
+
+$(document).ready(function () {
+    if ( $(window).width() < 992) {
+        $('#news_list').addClass('collapse');
+    }
+});
+
 var setDivsState=function(){
-    if ( $(window).width() <= 992) {
+    if ( $(window).width() < 992) {
         $(function(){
                 $('#news_list').addClass('collapse');
         });
