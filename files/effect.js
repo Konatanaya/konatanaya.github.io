@@ -19,7 +19,7 @@ $(".nav .nav-link").on("click", function(){
 });
 
 var setDivsState=function(){
-    if ( $(window).width() < 992) {
+    if ( $(window).width() <= 992) {
         $(function(){
                 $('#news_list').addClass('collapse');
         });
