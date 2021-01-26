@@ -22,17 +22,16 @@ html,body{
     background:transparent;
 }
 
-.left-panel{
+.side-panel{
     background-color: rgba(0,0,0,0.5);
-    padding: 20px 5px 20px 5px;
-    padding: 20px;
+    padding: 30px 15px 30px 15px;
+    margin: 0px -5px 15px -5px;
 }
 
-.right-panel{
+.main-panel{
     background-color: rgba(0,0,0,0.5);
-    padding: 20px 5px 20px 5px;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 30px 15px 30px 15px;
+    margin: 0px -5px 10px -5px;
 }
 
 .section-title{
@@ -59,7 +58,7 @@ html,body{
 .footer{
     position:relative;
     background-color: rgba(0,0,0,0.75);
-    margin-top:100px;
+    margin-top:150px;
     height:70px;
     padding:20px;
 }

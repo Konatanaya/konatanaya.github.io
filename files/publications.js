@@ -75,8 +75,8 @@ class Publications extends React.Component{
                     return (
                         [<dd key={'j'+i} class="col-sm-1">[J{i}]</dd>,
                         <dd key={'J'+i} class="col-sm-11">{authors}. {item.title}. <i>{item.publisher}</i>, {item.year}. <a href={item.pdf} target="_blank" type="button" class="btn
-                        btn-outline-light btn-xs">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
-                        btn-xs">Bibtex</a></dd>]
+                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
+                        btn-xs disabled">Bibtex</a></dd>]
                     )
                 })
             }
@@ -116,8 +116,8 @@ class Publications extends React.Component{
                     return (
                         [<dd key={'C'+i} class="col-sm-1">[C{i}]</dd>,
                         <dd key={'C'+i} class="col-sm-11">{authors}. {item.title}. In: <i>{item.proceeding}</i>, {item.year}. <a href={item.pdf} target="_blank" type="button" class="btn
-                        btn-outline-light btn-xs">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
-                        btn-xs">Bibtex</a></dd>]
+                        btn-outline-light btn-xs disabled">PDF</a> <a href="{item.bibtex}" target="_blank" type="button" class="btn btn-outline-light
+                        btn-xs disabled">Bibtex</a></dd>]
                     )
                 })
             }
@@ -128,7 +128,7 @@ class Publications extends React.Component{
     render(){
         return(
             <div>
-                <h4 class="section-title">Publications</h4>
+                <h3 class="section-title">Publications</h3>
                 <h5 class="subsection-title">Referred Journal Papers</h5>
                 {this.generateJournals()}
                 <h5 class="subsection-title">Referred Conference Papers</h5>

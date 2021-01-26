@@ -7,20 +7,23 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(0,0,0,0.75);" id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="#">Shiqing Wu</a>
+        <span class="navbar-brand" href="#">Shiqing Wu</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link " href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#bio">Bio</a>
@@ -38,13 +41,13 @@
                     <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#honors">Honors</a>
+                    <a class="nav-link" href="#awards">Awards</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link " href="#">Home111 <span class="sr-only">(current)</span></a>
-                </li>
+            <ul class="navbar-nav ml-auto d-inline-block">
+                <a type="button" href="https://www.linkedin.com/public-profile/in/shiqing-wu" target="_blank" class="list-inline-item"><i class="fab fa-linkedin text-light ai-2x "></i></a>
+                <a type="button" href="https://www.researchgate.net/profile/Shiqing_Wu" target="_blank" class="list-inline-item"><i class="ai ai-researchgate-square ai-2x text-light"></i></a>
+<!--                <a type="button" href="" target="_blank" class="list-inline-item disabled"><i class="ai ai-google-scholar-square ai-2x text-light"></i></a>-->
             </ul>
         </div>
     </div>
@@ -53,20 +56,20 @@
 
 <div class="container main-page text-color">
     <div class="row flex-xl-nowrap">
-        <main class="col-sm-9 bd-content order-2 order-sm-1" role="main">
-            <div id="home" class="rounded-lg right-panel">
+        <main class="col-lg-9 bd-content order-2 order-lg-1" role="main">
+            <div id="home" class="rounded-lg main-panel">
                 <div class="row text-left">
-                    <div class="col-sm-3">
+                    <div class="col-lg-3 text-center">
                         <img src="files/photo.jpg" class="img-thumbnail" alt="..."></img>
                     </div>
-                    <div class="col-sm-8">
-                        <h2>Shiqing Wu</h2>
+                    <div class="col-lg-9">
+                        <h1>Shiqing Wu</h1>
                         Doctoral Candidate
                         <br><br>
                         Discipline of Information & Communication Technology (ICT)<br>
                         School of Technology, Environments and Design (TED)<br>
                         College of Sciences and Engineering (CoSE)<br>
-                        University of Tasmania (UTAS), Australia
+                        University of Tasmania (UTAS)
                         <br><br>
                         Email: <a href="mailto:shiqing.wu@utas.edu.au" class="text-light">shiqing.wu@utas.edu.au</a><br>
                         Location: Room 107, Engineering Building, University of Tasmania, Sandy Bay, Hobart, TAS, Australia.
@@ -74,29 +77,27 @@
                     </div>
                 </div>
             </div>
-            <div id="bio" class="rounded-lg right-panel">
-                <h4 class="section-title border-light">Short Bio</h4>
-                <ul>
-                    <li>
-                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
-                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
-                    </li>
-                    <li>
-                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
-                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
-                    </li>
-                    <li>
-                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
-                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
-                    </li>
-                    <li>
-                        <p>Shiqing is currently a doctoral candidate in the Discipline of Information and Communication Technology, College of Sciences and Engineering, University of Tasmania. His
-                            research interests involve incentive allocation problem, influence diffusion analysis, agent-based modeling, and machine learning.</p>
-                    </li>
-                </ul>
+            <div id="bio" class="rounded-lg main-panel">
+                <h3 class="section-title border-light">Short Bio</h3>
+                <p>Shiqing received the joint BSc degrees in computer science from China Jiliang University (China) and
+                    Auckland University of Technology (New Zealand) in 2016. After that, he pursued an MSc degree at Auckland
+                    Univerisity of Technology, and then in April 2018, upgraded to a doctoral candidate. In October 2019, Shiqing
+                    transferred his study to the University of Tasmania (Australia). He is currently a doctoral candidate
+                    in the Discipline of Information & Communication Technology, in the School of Technology, Environments
+                    and Design, at the University of Tasmania.</p>
+                <p>Shiqing's research involve many topics, including:
+                    <ul>
+                        <li>Incentive Allocation Problem.</li>
+                        <li>Influence Diffusion Analysis, and Influence Maximization Problem.</li>
+                        <li>Agent-based Modeling, Multi-Agent Systems.</li>
+                        <li>Deep Learning (RNN and GNN), Reinforcement Learning (DRL, HRL and MARL).</li>
+                        <li>Online Learning, Multi-Armed Bandit.</li>
+                    </ul>
+                </p>
+
             </div>
-            <div id="edu" class="rounded-lg right-panel">
-                <h4 class="section-title">Education</h4>
+            <div id="edu" class="rounded-lg main-panel">
+                <h3 class="section-title">Education</h3>
                 <dl class="row text-light">
                     <dd class="col-sm-2">2019-Present</dd>
                     <dd class="col-sm-10">Doctor of Philosophy <br> University of Tasmania, Hobart, TAS, Australia.</dd>
@@ -114,22 +115,22 @@
                     <dd class="col-sm-10">Bachelor of Computer Science and Technology. <br> China Jiliang University, Hangzhou, Zhejiang, China.</dd>
                 </dl>
             </div>
-            <div id="publications" class="rounded-lg right-panel"></div>
-            <div id="teaching" class="rounded-lg right-panel">
-                <h4 class="section-title">Teaching</h4>
+            <div id="publications" class="rounded-lg main-panel"></div>
+            <div id="teaching" class="rounded-lg main-panel">
+                <h3 class="section-title">Teaching</h3>
                 <h5 class="subsection-title">At University of Tasmania</h5>
                 <ul>
-                    <li>KIT306/606: Data Analytics, Spring, 2020</li>
+                    <li>KIT306/606: Data Analytics, Spring, 2020.</li>
                 </ul>
                 <h5 class="subsection-title">At Auckland University of Technology</h5>
                 <ul>
-                    <li>COMP603: Program Design and Construction, Autumn and Spring, 2017-2019</li>
-                    <li>ENSE600: Software Construction, Autumn and Spring, 2018-2019</li>
+                    <li>COMP603: Program Design and Construction, Autumn and Spring, 2017-2019.</li>
+                    <li>ENSE600: Software Construction, Autumn and Spring, 2018-2019.</li>
                 </ul>
 
             </div>
-            <div id="services" class="rounded-lg right-panel">
-                <h4 class="section-title">Services</h4>
+            <div id="services" class="rounded-lg main-panel">
+                <h3 class="section-title">Services</h3>
                 <ul>
                     <li>Reviewer of the Principle and practice of data and Knowledge Acquisition Workshop (PKAW), 2020.</li>
                     <li>Reviewer of the Journal of Computers in Human Behavior, 2019.</li>
@@ -139,10 +140,37 @@
                     <li>Reviewer of the 15th Pacific Rim Knowledge Acquisition Workshop (PKAW), 2018.</li>
                 </ul>
             </div>
-            <div id="honors" class="rounded-lg right-panel"></div>
+            <div id="awards" class="rounded-lg main-panel">
+                <h3 class="section-title">Honors</h3>
+                <ul>
+                    <li>Doctoral Scholarship, University of Tasmania, 2019.</li>
+                    <li>Doctoral Scholarship, Auckland University of Technology, 2018.</li>
+                    <li>Postgraduate Scholarship, Auckland University of Technology, 2016.</li>
+                    <li>Outstanding Volunteer, Hangzhou Municipal Government, 2014.</li>
+                </ul>
+            </div>
         </main>
-        <div class="col-sm-3 bd-sidebar order-1 order-sm-2">
-            <div class="rounded-lg left-panel shadow-lg p-3 mb-5" id="news">
+        <div class="col-lg-3 bd-sidebar order-1 order-lg-2">
+            <div class="rounded-lg side-panel shadow-lg p-3 mb-5" id="news">
+                <div>
+                    <h3 class="section-title">News</h3>
+                    <ul class="list-unstyled text-justify-left">
+                        <li><b>[18 Dec 2020]</b> Our paper "Learning Policies for Effective Incentive Allocation in Unknown Social Networks" is accepted at
+                            <a href="https://aamas2021.soton.ac.uk/" target="_blank" class="text-light">AAMAS 2021</a>.
+                        </li>
+                        <br>
+                        <li><b>[5 Nov 2020]</b> I gave a talk titled "Influence-aware Incentive Allocation" in the Alibaba Research Center for Complexity Sciences at Hangzhou Normal University.</li>
+                        <br>
+                        <li><b>[25 Nov 2019]</b> We will organize the Principle and practice of data and Knowledge Acquisition Workshop (
+                            <a href="http://www.pkaw.org/pkaw2020/" target="_blank" class="text-light">PKAW 2020</a>) at
+                            <a href="https://ijcai20.org/" target="_blank" class="text-light">IJCAI-PRICAI 2020</a>.
+                        </li>
+                        <br>
+                        <li><b>[3 Jun 2019]</b> Our papers "Adaptive Incentive Allocation for Influence-aware Proactive Recommendation" and "Incentivizing Long-term Engagement Under Limited Budget"
+                            are accepted at <a href="https://www.pricai.org/2019/" target="_blank" class="text-light">PRICAI 2019</a>.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -169,8 +197,6 @@
 
 <!--  Load React components  -->
 <script src="files/publications.js" type="text/babel"></script>
-<script src="files/components.js" type="text/babel"></script>
-<script src="files/teaching.js" type="text/babel"></script>
 <!--  Load JS  -->
 <script src="js/jquery.min.js"></script>
 <!--<script src="js/jquery.easing.min.js"></script>-->
