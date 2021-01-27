@@ -28,3 +28,7 @@ $("#news_button").on("click", function(){
         $("#news_span").text("Show News");
     }
 });
+
+$(window).resize(function () {
+    $('#news').width($('#news-col').width()-20);
+}).resize();
