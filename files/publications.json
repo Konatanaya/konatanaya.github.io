@@ -1,12 +1,43 @@
 [
+	{
+        "title":"Learning Policies for Effective Incentive Allocation in Unknown Social Networks",
+        "author":["Shiqing Wu", "Quan Bai, and Weihua Li"],
+        "booktitle":"Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)",
+        "year":"2021",
+        "note":"",
+        "pdf":"",
+        "bibtex":"",
+		"type":"conference"
+    },
     {
+        "title":"Incentivizing Long-term Engagement Under Limited Budget",
+        "author":["Shiqing Wu", "and Quan Bai"],
+        "booktitle":"PRICAI 2019: Trends in Artificial Intelligence (PRICAI)",
+        "year":"2019",
+        "note":"",
+        "pdf":"",
+        "bibtex":"",
+		"type":"conference"
+    },
+    {
+        "title":"Adaptive Incentive Allocation for Influence-aware Proactive Recommendation",
+        "author":["Shiqing Wu", "Quan Bai, and Byeong Ho Kang"],
+        "booktitle":"PRICAI 2019: Trends in Artificial Intelligence (PRICAI)",
+        "year":"2019",
+        "note":"",
+        "pdf":"",
+        "bibtex":"",
+		"type":"conference"
+    },
+	{
         "title":"Greencommute: An Influence-aware Persuasive Recommendation Approach for Public-friendly Commute Options",
         "author": ["Shiqing Wu", "Quan Bai, and Sotsay Sengvong"],
         "booktitle":"Journal of Systems Science and Systems Engineering",
         "year":"2018",
         "note":"",
         "pdf":"",
-        "bibtex":""
-    },
+        "bibtex":"",
+		"type":"journal"
+    }
 
 ]
