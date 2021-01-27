@@ -46,6 +46,7 @@ html,body{
 .text-color{
     color: #F0FFF0;
 }
+
 button.text-color:focus{
     color: #F0FFF0;
 }
@@ -68,6 +69,9 @@ button.text-color:active{
     padding:20px;
 }
 
+i:hover{
+    opacity:0.7;
+}
 @media only screen and (min-width: 992px) {
 
 }
