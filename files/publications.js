@@ -178,7 +178,6 @@ function generatePublicationList(list, type){
     for(var i=0 ;i<length;i++){
         var index = length-i;
         var item = list[i];
-        console.log(item.author);
         var authors = getAuthors(item.author);
         str += "<dd class='col-sm-1'>["+type+index+"]</dd><dd class='col-sm-11'>"+authors+". "+item.title+
         ". <i>"+item.booktitle+"</i>, "+item.year+". <a href="+item.pdf+" target='_blank' class='btn btn-outline-light btn-xs disabled'>PDF</a> <a href="+
