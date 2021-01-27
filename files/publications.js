@@ -39,7 +39,6 @@ var conferences = [
         "pdf":"",
         "bibtex":""
     },
-
 ]
 
 function getAuthors(author_list){
