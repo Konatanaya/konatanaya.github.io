@@ -6,8 +6,8 @@ function generatePublicationList(list, type){
         var item = list[i];
         var authors = getAuthors(item.author);
         str += "<dd class='col-sm-1'>["+type+index+"]</dd><dd class='col-sm-11'>"+authors+". "+item.title+
-        ". <em>"+item.booktitle+"</em>, "+item.year+". <a href='"+item.pdf+"' target='_blank' class='btn btn-outline-light btn-xs'>PDF</a> <a href='"+
-        item.bibtex+"' target='_blank' class='btn btn-outline-light btn-xs'>Bibtex</a></dd>";
+        ". <em>"+item.booktitle+"</em>, "+item.year+". <a href='"+item.pdf+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>PDF</a> <a href='"+
+        item.bibtex+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>Bibtex</a></dd>";
     }
     str += "</dl>";
     return str;
