@@ -33,7 +33,11 @@ $(window).resize(function () {
     $('#news').width($('#news-col').width()-20);
 }).resize();
 
-$(document).ready(function(){
+//$(document).ready(function(){
+
+//});
+
+window.onload = function(){
     var test = /-min\./;
     $("a.btn-xs").each(function(index,obj){
         if($(this).attr("href") != ""){
@@ -46,8 +50,4 @@ $(document).ready(function(){
             $(this).attr("src",reSrc)
         }
     })
-});
-
-//window.onload = function(){
-//
-//}
+}
