@@ -33,15 +33,15 @@ $(window).resize(function () {
     $('#news').width($('#news-col').width()-20);
 }).resize();
 
-$(document).ready(function(){
-    var test = /-min\./;
-    $("img").each(function(index,obj){
-        if(test.test($(this).attr("src"))){
-            var reSrc = $(this).attr("src").replace(test,".");
-            $(this).attr("src",reSrc)
-        }
-    })
-});
+//$(document).ready(function(){
+//    var test = /-min\./;
+//    $("img").each(function(index,obj){
+//        if(test.test($(this).attr("src"))){
+//            var reSrc = $(this).attr("src").replace(test,".");
+//            $(this).attr("src",reSrc)
+//        }
+//    })
+//});
 
 window.onload = function(){
     $("a.btn-xs").each(function(index,obj){
