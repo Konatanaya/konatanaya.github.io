@@ -35,6 +35,11 @@ $(window).resize(function () {
 
 $(document).ready(function(){
     var test = /-min\./;
+    $("a.btn-xs").each(function(index,obj){
+        if($(this).attr("href") != ""){
+            $(this).removeClass('disabled');
+        }
+    });
     $("img").each(function(index,obj){
         if(test.test($(this).attr("src"))){
             var reSrc = $(this).attr("src").replace(test,".");
@@ -43,10 +48,6 @@ $(document).ready(function(){
     })
 });
 
-window.onload = function(){
-    $("a.btn-xs").each(function(index,obj){
-        if($(this).attr("href") != ""){
-            $(this).removeClass('disabled');
-        }
-    });
-}
+//window.onload = function(){
+//
+//}
