@@ -6,7 +6,7 @@ var headerHeight = $("#navbar").height();
 $('nav ul li a').bind("click", function(e) {
 
     var target = $(this).attr("href"); //Get the target
-    var scrollToPosition = $(target).offset().top - headerHeight-50;
+    var scrollToPosition = $(target).offset().top - headerHeight-250;
 
     $('html, body').animate({ 'scrollTop': scrollToPosition }, 800, function(target){
         window.location.hash = target;

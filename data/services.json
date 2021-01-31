@@ -1,0 +1,38 @@
+[
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
+    "year": "2020"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Computers in Human Behavior",
+    "year": "2019"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 16th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2019"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 21st International Conference on Principles and Practice of Multi-Agent Systems (PRIMA)",
+    "year": "2018"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2018"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 15th Pacific Rim Knowledge Acquisition Workshop (PKAW)",
+    "year": "2018"
+  }
+]

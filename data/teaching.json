@@ -1,0 +1,32 @@
+[
+  {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Semester 2, 2020"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 2, 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 1, 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 2, 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 1, 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603: Program Design and Construction",
+    "time": "Semester 2, 2017"
+  }
+]
