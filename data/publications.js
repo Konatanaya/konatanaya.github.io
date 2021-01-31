@@ -1,3 +1,24 @@
+function loadPublications(){
+    var journals = [];
+    var conferences = [];
+    $.getJSON("data/publications.json", function (data) {
+        $.each(data, function (index, item) {
+            switch(item.type){
+                case("journal"):
+                    journals.push(item);
+                    break;
+                case("conference"):
+                    conferences.push(item);
+                    break;
+                default:
+                    break;
+            }
+        });
+        $("#journalDIV").append(generatePublicationList(journals,'J'))
+        $('#conferenceDIV').append(generatePublicationList(conferences, 'C'));
+    });
+}
+
 function generatePublicationList(list, type){
     var length = list.length;
     var str = "<dl class='row text-justify-left'>";
@@ -38,28 +59,7 @@ function getAuthors(author_list){
     return str;
 }
 
-function loadPublications(){
-    var journals = [];
-    var conferences = [];
-    $.getJSON("js/publications.json", function (data) {
-        $.each(data, function (index, item) {
-            switch(item.type){
-                case("journal"):
-                    journals.push(item);
-                    break;
-                case("conference"):
-                    conferences.push(item);
-                    break;
-                default:
-                    break;
-            }
-        });
-        $("#journalDIV").append(generatePublicationList(journals,'J'))
-        $('#conferenceDIV').append(generatePublicationList(conferences, 'C'));
-    });
-}
-
-$(document).ready(function(){
+$(function(){
     loadPublications();
 })
 

@@ -1,0 +1,24 @@
+[
+  {
+    "type":"conference",
+    "date":"18 Dec 2020",
+    "content":"Our paper \"Learning Policies for Effective Incentive Allocation in Unknown Social Networks\" is accepted at ",
+    "conference":"AAMAS 2021"
+  },
+  {
+    "type":"normal",
+    "date":"5 Nov 2020",
+    "content":"I gave a talk titled \"Influence-aware Incentive Allocation\" in the Alibaba Research\n Center for Complexity Sciences at Hangzhou Normal University."
+  },
+  {
+    "type": "normal",
+    "date": "25 Nov 2019",
+    "content": "We will organize the Principle and practice of data and Knowledge Acquisition Workshop (<b>PKAW 2020</b>) at <b>IJCAI-PRICAI 2020</b>."
+  },
+  {
+    "type": "conference",
+    "date": "3 Jun 2019",
+    "content": "Our papers \"Adaptive Incentive Allocation for Influence-aware Proactive Recommendation\" and \"Incentivizing Long-term Engagement Under Limited Budget\" are accepted at ",
+    "conference": "PRICAI 2019"
+  }
+]
