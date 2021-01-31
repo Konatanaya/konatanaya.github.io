@@ -44,11 +44,11 @@ $(document).ready(function(){
 });
 
 window.onload = function(){
-    $("a.btn-xs").each(function(index,obj){
-        if($(this).attr("href") != ""){
-            $(this).removeClass('disabled');
-        }
-    });
+//    $("a.btn-xs").each(function(index,obj){
+//        if($(this).attr("href") != ""){
+//            $(this).removeClass('disabled');
+//        }
+//    });
 
 //    var test = /-min\./;
 //    $("img").each(function(index,obj){

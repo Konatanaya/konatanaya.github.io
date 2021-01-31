@@ -27,11 +27,20 @@ function generatePublicationList(list, type){
         var item = list[i];
         var authors = getAuthors(item.author);
         str += "<dd class='col-sm-1'>["+type+index+"]</dd><dd class='col-sm-11'>"+authors+". "+item.title+
-        ". <em>"+item.booktitle+"</em>, "+item.year+". <a href='"+item.pdf+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>PDF</a> <a href='"+
-        item.bibtex+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>Bibtex</a></dd>";
+        ". <em>"+item.booktitle+"</em>, "+item.year+". "+checkLink(item.pdf)+"PDF</a> "+
+         checkLink(item.bibtex)+"Bibtex</a></dd>";
     }
     str += "</dl>";
     return str;
+}
+
+function checkLink(link){
+    if(link == ""){
+        return "<a href='"+link+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>";
+    }
+    else{
+        return "<a href='"+link+"' target='_blank' class='btn btn-outline-light btn-xs'>";
+    }
 }
 
 function getAuthors(author_list){
@@ -41,7 +50,7 @@ function getAuthors(author_list){
         a = author_list[i];
         if (i==a_length-1){
             if (a=="Shiqing Wu"){
-                str += "<b>"+a+"</b>)";
+                str += "<b>"+a+"</b>";
             }
             else{
                 str += a;
