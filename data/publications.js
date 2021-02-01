@@ -14,23 +14,22 @@ function loadPublications(){
                     break;
             }
         });
-        $("#journalDIV").append(generatePublicationList(journals,'J'))
-        $('#conferenceDIV').append(generatePublicationList(conferences, 'C'));
+        $("#journal_list").append(generatePublicationList(journals,'J'))
+        $('#conference_list').append(generatePublicationList(conferences, 'C'));
     });
 }
 
 function generatePublicationList(list, type){
     var length = list.length;
-    var str = "<dl class='row text-justify-left'>";
+    var str = "";
     for(var i=0 ;i<length;i++){
         var index = length-i;
         var item = list[i];
         var authors = getAuthors(item.author);
-        str += "<dd class='col-sm-1'>["+type+index+"]</dd><dd class='col-sm-11'>"+authors+". "+item.title+
+        str += "<dd class='col-sm-1 pub-index'>["+type+index+"]</dd><dd class='col-sm-11' >"+authors+". "+item.title+
         ". <em>"+item.booktitle+"</em>, "+item.year+". "+checkLink(item.pdf)+"PDF</a> "+
          checkLink(item.bibtex)+"Bibtex</a></dd>";
     }
-    str += "</dl>";
     return str;
 }
 
