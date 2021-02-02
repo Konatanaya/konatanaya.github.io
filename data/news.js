@@ -22,17 +22,17 @@ function loadNews(){
 }
 
 function generateConferenceNews(item){
-    var str = "<li><b>["+item.date+"]</b><br>" + item.content + "<b>"+item.conference+"</b>.</li><br>";
+    var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.conference+".</li><br>";
     return str;
 }
 
 function generateJournalNews(item){
-    var str = "<li><b>["+item.date+"]</b><br>" + item.content + "<b>"+item.journal+"</b>.</li><br>";
+    var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.journal+".</li><br>";
     return str;
 }
 
 function generateWorkshopNews(item){
-    var str = "<li><b>["+item.date+"]</b><br>" + item.content + "<b>"+item.workshop+"</b>.</li><br>";
+    var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.workshop+".</li><br>";
     return str;
 }
 

@@ -3,7 +3,7 @@
     "type":"conference",
     "date":"18 Dec 2020",
     "content":"Our paper \"Learning Policies for Effective Incentive Allocation in Unknown Social Networks\" is accepted at ",
-    "conference":"AAMAS 2021"
+    "conference":"<a href=\"https://aamas2021.soton.ac.uk/\" target=\"_blank\" class=\"link-text-color\">AAMAS 2021</a>"
   },
   {
     "type":"normal",
@@ -13,12 +13,12 @@
   {
     "type": "normal",
     "date": "25 Nov 2019",
-    "content": "We will organize the Principle and practice of data and Knowledge Acquisition Workshop (<b>PKAW 2020</b>) at <b>IJCAI-PRICAI 2020</b>."
+    "content": "We will organize the Principle and practice of data and Knowledge Acquisition Workshop (<a href=\"http://www.pkaw.org/pkaw2020/\" target=\"_blank\" class=\"link-text-color\">PKAW 2020</a>) at <a href=\"https://ijcai20.org/\" target=\"_blank\" class=\"link-text-color\">IJCAI-PRICAI 2020</a>."
   },
   {
     "type": "conference",
     "date": "3 Jun 2019",
     "content": "Our papers \"Adaptive Incentive Allocation for Influence-aware Proactive Recommendation\" and \"Incentivizing Long-term Engagement Under Limited Budget\" are accepted at ",
-    "conference": "PRICAI 2019"
+    "conference": "<a href=\"https://www.pricai.org/2019/\" target=\"_blank\" class=\"link-text-color\">PRICAI 2019</a>"
   }
 ]
