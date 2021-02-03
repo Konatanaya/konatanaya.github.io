@@ -2,7 +2,7 @@ function loadAwards(){
     $.getJSON("data/awards.json", function (data) {
         $.each(data, function (index, item) {
             item_code = generateAwardsItem(item);
-            $("#awards_list").append(item_code);
+            $("#awards-list").append(item_code);
         });
     });
 }

@@ -4,10 +4,10 @@ function loadTeachingExperience(){
             item_code = generateTeachingItem(item);
             switch(item.institution){
                 case("UTAS"):
-                    $("#teaching_UTAS").append(item_code);
+                    $("#teaching-UTAS").append(item_code);
                     break;
                 case("AUT"):
-                    $("#teaching_AUT").append(item_code);
+                    $("#teaching-AUT").append(item_code);
                     break;
                 default:
                     break;

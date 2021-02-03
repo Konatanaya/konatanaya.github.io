@@ -30,7 +30,11 @@ $("#news_button").on("click", function(){
 });
 
 $(window).resize(function () {
+//    $('#news_list_panel').width($('#news-col').width()-37);
     $('#news').width($('#news-col').width()-20);
+//    $('#news-content').width($('#news').width()+17);
+//    $('#news_list_panel').width($('#news-content').width()-17);
+
 }).resize();
 
 //$(document).ready(function(){

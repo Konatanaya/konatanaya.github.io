@@ -13,7 +13,7 @@
     <link rel="shortcut icon" href="img/icon.png">
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="400">
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color: rgba(0,0,0,0.75);" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top " style="background-color:rgba(0,0,0,0.75);" id="navbar">
     <div class="container">
         <span class="navbar-brand" href="#">Shiqing Wu</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -120,44 +120,44 @@
             <div id="publications" class="rounded-lg main-panel">
                 <h3 class="section-title">Publications</h3>
                 <h5 class="subsection-title">Referred Journal Papers</h5>
-                <dl id="journal_list" class='row text-justify-left'></dl>
+                <dl id="journal-list" class='row text-justify-left'></dl>
                 <h5 class="subsection-title">Referred Conference Papers</h5>
-                <dl id="conference_list" class='row text-justify-left'></dl>
+                <dl id="conference-list" class='row text-justify-left'></dl>
             </div>
             <div id="teaching" class="rounded-lg main-panel">
                 <h3 class="section-title">Teaching</h3>
                 <h5 class="subsection-title">At University of Tasmania</h5>
-                <ul id="teaching_UTAS"></ul>
+                <ul id="teaching-UTAS"></ul>
                 <h5 class="subsection-title">At Auckland University of Technology</h5>
-                <ul id="teaching_AUT"></ul>
+                <ul id="teaching-AUT"></ul>
             </div>
             <div id="services" class="rounded-lg main-panel">
                 <h3 class="section-title">Services</h3>
                 <h5 class="subsection-title">Journal</h5>
-                <ul id="services_journal"></ul>
+                <ul id="services-journal"></ul>
                 <h5 class="subsection-title">Conference/Workshop</h5>
-                <ul id="services_conference"></ul>
+                <ul id="services-conference"></ul>
             </div>
             <div id="awards" class="rounded-lg main-panel">
                 <h3 class="section-title">Awards</h3>
-                <ul id="awards_list"></ul>
+                <ul id="awards-list"></ul>
             </div>
         </div>
-        <div class="col-lg-3 bd-sidebar order-1 order-lg-2">
+        <div id="side-column" class="col-lg-3 bd-sidebar order-1 order-lg-2" >
             <div id="news-col"></div>
             <div class="rounded-lg side-panel shadow-lg p-3 mb-5 " id="news">
-                <div class="text-right navbar-expand-lg">
-                    <button id="news_button" class="navbar-toggler text-color" type="button" data-toggle="collapse" data-target="#news_list_panel" aria-controls="news_list_panel"
-                            aria-expanded="false" aria-label="Toggle navigation"><span id="news_span">Show News</span>
+                <div class="text-right navbar-expand-lg" style="margin-right:-10px">
+                    <button id="news-button" class="navbar-toggler text-color" type="button" data-toggle="collapse" data-target="#news-list-panel" aria-controls="news-list-panel"
+                            aria-expanded="false" aria-label="Toggle navigation"><span id="news-span">Show News</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title>
                             <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
                         </svg>
                     </button>
                 </div>
-                <div class="collapse d-lg-block" id="news_list_panel">
+                <div class="collapse d-lg-block" id="news-list-panel">
                     <h3 class="section-title">News</h3>
-                    <div class="side-news-scrollbar">
-                        <ul class="list-unstyled text-justify-left" id="news_list" ></ul>
+                    <div class="side-news-scrollbar" id="news-content">
+                        <ul class="list-unstyled text-justify-left" id="news-list" ></ul>
                     </div>
                 </div>
             </div>

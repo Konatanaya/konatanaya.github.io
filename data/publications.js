@@ -14,8 +14,8 @@ function loadPublications(){
                     break;
             }
         });
-        $("#journal_list").append(generatePublicationList(journals,'J'))
-        $('#conference_list').append(generatePublicationList(conferences, 'C'));
+        $("#journal-list").append(generatePublicationList(journals,'J'))
+        $('#conference-list').append(generatePublicationList(conferences, 'C'));
     });
 }
 

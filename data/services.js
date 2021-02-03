@@ -4,10 +4,10 @@ function loadServicesExperience(){
             item_code = generateServiceItem(item);
             switch(item.type){
                 case("journal"):
-                    $("#services_journal").append(item_code);
+                    $("#services-journal").append(item_code);
                     break;
                 case("conference"):
-                    $("#services_conference").append(item_code);
+                    $("#services-conference").append(item_code);
                     break;
                 default:
                     break;

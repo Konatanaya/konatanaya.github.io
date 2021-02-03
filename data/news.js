@@ -16,7 +16,7 @@ function loadNews(){
                 default:
                     break;
             }
-            $("#news_list").append(item_code)
+            $("#news-list").append(item_code)
         });
     });
 }
