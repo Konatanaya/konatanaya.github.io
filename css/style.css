@@ -24,7 +24,6 @@ html,body{
 
 .side-panel{
     background-color: rgba(0,0,0,0.5);
-    padding: 30px 15px 30px 15px;
     margin: 0px -5px 0px -5px;
 }
 
@@ -32,13 +31,12 @@ html,body{
     margin-bottom:-25px;
 }
 
+#news-list-panel{
+    padding: 5px 5px 5px 5px;
+}
 .side-news-scrollbar{
     height:250px;
     overflow-y:auto;
-}
-
-#news-list-panel1{
-    overflow:hidden;
 }
 
 #news-content::-webkit-scrollbar {
@@ -58,13 +56,14 @@ html,body{
 
 .main-panel{
     background-color: rgba(0,0,0,0.5);
-    padding: 30px 10px 30px 10px;
+    padding: 30px 30px 30px 30px;
     margin: 0px -5px 20px -5px;
 }
 
 .section-title{
     border-bottom: 1px solid #FFFAFA;
     color: #FFFAFA;
+    padding-bottom:10px;
 }
 
 .subsection-title{
