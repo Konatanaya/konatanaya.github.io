@@ -15,6 +15,7 @@ particlesJS('particles-js',
   
   {
     "particles": {
+      "fps_limit": 30,
       "number": {
         "value": 100,
         "density": {
