@@ -163,17 +163,17 @@ $(function(){
     function id(v){
         return document.getElementById(v);
     }
-    function loadbar(){
+    function loadbar() {
         var ovrl = id("overlay"),
             prog = id("progress"),
             stat = id("progstat"),
-            content = document.images;
+            img = document.images,
             c = 0,
-            tot = content.length + load_content_functions.length;
+            tot = img.length + load_content_functions.length;
         if(tot == 0)
             return doneLoading();
 
-        function contentLoaded(){
+        function imgLoaded(){
             c += 1;
             var perc = ((100/tot*c) << 0) +"%";
             prog.style.width = perc;
@@ -183,20 +183,19 @@ $(function(){
         function doneLoading(){
             ovrl.style.opacity = 0;
             setTimeout(function(){
-                ovrl.style.display = "none";
+            ovrl.style.display = "none";
             }, 1200);
         }
-        for(var i=0; i<content.length; i++) {
+        for(var i=0; i<img.length; i++) {
             var tImg = new Image();
-            tImg.onload = contentLoaded;
-            tImg.onerror = contentLoaded;
-            tImg.src = content[i];
+            tImg.onload = imgLoaded;
+            tImg.onerror = imgLoaded;
+            tImg.src = img[i].src;
         }
-        for(var i=0; i<load_content_functions.length; i++){
+        for(var i=0; i<load_content_functions.length; i++) {
             load_content_functions[i]();
-            contentLoaded();
+            imgLoaded();
         }
-
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
@@ -236,13 +235,13 @@ $(window).resize(function () {
 
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
-//window.onload = function(){
-//    var test = /-min\./;
-//    $("img").each(function(index,obj){
-//        if(test.test($(this).attr("src"))){
-//            var reSrc = $(this).attr("src").replace(test,".");
-//            $(this).attr("src",reSrc)
-//        }
-//    });
-//};
+window.onload = function(){
+    var test = /-min\./;
+    $("img").each(function(index,obj){
+        if(test.test($(this).attr("src"))){
+            var reSrc = $(this).attr("src").replace(test,".");
+            $(this).attr("src",reSrc)
+        }
+    });
+};
 
