@@ -167,7 +167,7 @@ $(function(){
         var ovrl = id("overlay"),
             prog = id("progress"),
             stat = id("progstat"),
-            img = document.images,
+            img = document.content,
             c = 0,
             tot = img.length + load_content_functions.length;
         if(tot == 0)
@@ -178,25 +178,26 @@ $(function(){
             var perc = ((100/tot*c) << 0) +"%";
             prog.style.width = perc;
             stat.innerHTML = "Loading "+ perc;
-            if(c===tot) return doneLoading();
+            if(c===tot)
+                return doneLoading();
         }
         function doneLoading(){
             ovrl.style.opacity = 0;
             setTimeout(function(){
-            ovrl.style.display = "none";
+                ovrl.style.display = "none";
             }, 1200);
+        }
+        for(var i=0; i<img.length; i++) {
+//            var tImg = new Image();
+//            tImg.onload = imgLoaded;
+//            tImg.onerror = imgLoaded;
+//            tImg.src = img[i].src;
+            imgLoaded();
         }
         for(var i=0; i<load_content_functions.length; i++) {
             load_content_functions[i]();
             imgLoaded();
         }
-        for(var i=0; i<img.length; i++) {
-            var tImg = new Image();
-            tImg.onload = imgLoaded;
-            tImg.onerror = imgLoaded;
-            tImg.src = img[i].src;
-        }
-
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
