@@ -5,12 +5,12 @@
     var ovrl = id("overlay"),
         prog = id("progress"),
         stat = id("progstat"),
-        img = document.images,
+        content = document.all,
         c = 0,
-        tot = img.length;
+        tot = content.length;
     if(tot == 0) return doneLoading();
 
-    function imgLoaded(){
+    function contentLoaded(){
       c += 1;
       var perc = ((100/tot*c) << 0) +"%";
       prog.style.width = perc;
@@ -25,9 +25,9 @@
     }
     for(var i=0; i<tot; i++) {
       var tImg     = new Image();
-      tImg.onload  = imgLoaded;
-      tImg.onerror = imgLoaded;
-      tImg.src     = img[i].src;
+      tImg.onload  = contentLoaded;
+      tImg.onerror = contentLoaded;
+      tImg.src     = content[i].src;
     }
   }
   document.addEventListener('DOMContentLoaded', loadbar, false);
