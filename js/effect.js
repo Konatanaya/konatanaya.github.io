@@ -167,7 +167,7 @@ $(function(){
         var ovrl = id("overlay"),
             prog = id("progress"),
             stat = id("progstat"),
-            img = document.all,
+            img = document.images,
             c = 0,
             tot = img.length + load_content_functions.length;
         if(tot == 0)
@@ -188,11 +188,10 @@ $(function(){
             }, 1200);
         }
         for(var i=0; i<img.length; i++) {
-//            var tImg = new Image();
-//            tImg.onload = imgLoaded;
-//            tImg.onerror = imgLoaded;
-//            tImg.src = img[i].src;
-            imgLoaded();
+            var tImg = new Image();
+            tImg.onload = imgLoaded;
+            tImg.onerror = imgLoaded;
+            tImg.src = img[i].src;
         }
         for(var i=0; i<load_content_functions.length; i++) {
             load_content_functions[i]();
