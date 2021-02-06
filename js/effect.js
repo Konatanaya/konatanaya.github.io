@@ -186,16 +186,17 @@ $(function(){
             ovrl.style.display = "none";
             }, 1200);
         }
+        for(var i=0; i<load_content_functions.length; i++) {
+            load_content_functions[i]();
+            imgLoaded();
+        }
         for(var i=0; i<img.length; i++) {
             var tImg = new Image();
             tImg.onload = imgLoaded;
             tImg.onerror = imgLoaded;
             tImg.src = img[i].src;
         }
-        for(var i=0; i<load_content_functions.length; i++) {
-            load_content_functions[i]();
-            imgLoaded();
-        }
+
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
