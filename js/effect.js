@@ -186,27 +186,20 @@ $(function(){
                 ovrl.style.display = "none";
             }, 1200);
         }
-
-        for(var i=0; i<load_content_functions.length; i++){
-            load_content_functions[i]();
-            contentLoaded();
-        }
         for(var i=0; i<content.length; i++) {
             var tImg = new Image();
             tImg.onload = contentLoaded;
             tImg.onerror = contentLoaded;
             tImg.src = content[i];
         }
+        for(var i=0; i<load_content_functions.length; i++){
+            load_content_functions[i]();
+            contentLoaded();
+        }
+
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
-
-
-
-
-
-
-
 
 // Effect triggered when nav button is clicked
 $('nav ul li a').bind("click", function(e) {
@@ -243,13 +236,13 @@ $(window).resize(function () {
 
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
-window.onload = function(){
-    var test = /-min\./;
-    $("img").each(function(index,obj){
-        if(test.test($(this).attr("src"))){
-            var reSrc = $(this).attr("src").replace(test,".");
-            $(this).attr("src",reSrc)
-        }
-    });
-};
+//window.onload = function(){
+//    var test = /-min\./;
+//    $("img").each(function(index,obj){
+//        if(test.test($(this).attr("src"))){
+//            var reSrc = $(this).attr("src").replace(test,".");
+//            $(this).attr("src",reSrc)
+//        }
+//    });
+//};
 
