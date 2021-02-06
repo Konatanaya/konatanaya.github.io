@@ -41,7 +41,7 @@ window.onload = function(){
             $(this).attr("src",reSrc)
         }
     });
-}
+};
 
 // Effect of pre-loading bar
 (function(){
