@@ -167,7 +167,7 @@ $(function(){
         var ovrl = id("overlay"),
             prog = id("progress"),
             stat = id("progstat"),
-            img = document.content,
+            img = document.all,
             c = 0,
             tot = img.length + load_content_functions.length;
         if(tot == 0)
