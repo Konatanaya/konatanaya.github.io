@@ -159,7 +159,7 @@ var load_content_functions = [
 ]
 
 // Effect of pre-loading bar
-$(document).ready(function(){
+(function(){
     function id(v){
         return document.getElementById(v);
     }
