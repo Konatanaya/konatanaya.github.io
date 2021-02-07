@@ -170,6 +170,7 @@ $(function(){
             img = document.images,
             c = 0,
             tot = img.length + load_content_functions.length;
+            console.log(load_content_functions[0])
         if(tot == 0)
             return doneLoading();
 
@@ -182,21 +183,48 @@ $(function(){
                 return doneLoading();
         }
         function doneLoading(){
-            ovrl.style.opacity = 0;
+            var pause_time = 2500;
+
+            setTimeout(function(){
+                $(stat).fadeOut(800);
+            }, 500);
+            setTimeout(function(){
+                $(stat).fadeIn(800);
+                stat.innerHTML = "Enjoy Your Visit!";
+            }, 1300);
+
+            setTimeout(function(){
+                ovrl.style.opacity = 0;
+            }, pause_time);
             setTimeout(function(){
                 ovrl.style.display = "none";
-            }, 1200);
+            }, pause_time+1200);
+
         }
-        for(var i=0; i<img.length; i++) {
+
+        var index_0 = 0;
+        mytime_0 = setInterval(function(){
+            load_content_functions[index_0]();
+            imgLoaded();
+            index_0 += 1;
+            console.log("!"+index_0);
+            if(index_0 == load_content_functions.length)
+                clearInterval(mytime_0);
+        }, 300);
+
+        var index_1 = 0;
+        mytime_1 = setInterval(function(){
             var tImg = new Image();
             tImg.onload = imgLoaded;
             tImg.onerror = imgLoaded;
-            tImg.src = img[i].src;
-        }
-        for(var i=0; i<load_content_functions.length; i++) {
-            load_content_functions[i]();
-            imgLoaded();
-        }
+            tImg.src = img[index_1].src;
+            index_1 += 1;
+            console.log("!!"+index_1);
+            if(index_1 == img.length)
+                clearInterval(mytime_1);
+        }, 300);
+
+
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());

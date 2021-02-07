@@ -129,7 +129,7 @@ button.text-color:active{
     position:relative;
     background-color: rgba(0,0,0,0.75);
     margin-top:0px;
-    height:70px;
+    height:60px;
     padding:10px;
 
 }
@@ -143,12 +143,12 @@ i:hover{
 }
 @media only screen and (min-width: 992px) {
     .side-news-scrollbar{
-        height:calc(100vh - 250px);
+        height:calc(100vh - 230px);
     }
 
     .side-panel{
         position:fixed;
-        height:calc(100vh - 170px);
+        height:calc(100vh - 160px);
     }
 
     #side-column{
