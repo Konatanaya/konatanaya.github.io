@@ -202,28 +202,37 @@ $(function(){
 
         }
 
-        var index_0 = 0;
-        mytime_0 = setInterval(function(){
-            load_content_functions[index_0]();
-            imgLoaded();
-            index_0 += 1;
-            console.log("!"+index_0);
-            if(index_0 == load_content_functions.length)
-                clearInterval(mytime_0);
-        }, 300);
-
-        var index_1 = 0;
-        mytime_1 = setInterval(function(){
+//        var index_0 = 0;
+//        mytime_0 = setInterval(function(){
+//            load_content_functions[index_0]();
+//            imgLoaded();
+//            index_0 += 1;
+//            console.log("!"+index_0);
+//            if(index_0 == load_content_functions.length)
+//                clearInterval(mytime_0);
+//        }, 300);
+//
+//        var index_1 = 0;
+//        mytime_1 = setInterval(function(){
+//            var tImg = new Image();
+//            tImg.onload = imgLoaded;
+//            tImg.onerror = imgLoaded;
+//            tImg.src = img[index_1].src;
+//            index_1 += 1;
+//            console.log("!!"+index_1);
+//            if(index_1 == img.length)
+//                clearInterval(mytime_1);
+//        }, 300);
+        for(var i=0; i<img.length; i++) {
             var tImg = new Image();
             tImg.onload = imgLoaded;
             tImg.onerror = imgLoaded;
-            tImg.src = img[index_1].src;
-            index_1 += 1;
-            console.log("!!"+index_1);
-            if(index_1 == img.length)
-                clearInterval(mytime_1);
-        }, 300);
-
+            tImg.src = img[i].src;
+        }
+        for(var i=0; i<load_content_functions.length; i++) {
+            load_content_functions[i]();
+            imgLoaded();
+        }
 
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
