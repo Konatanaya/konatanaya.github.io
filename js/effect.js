@@ -178,20 +178,20 @@ $(function(){
             var perc = ((100/tot*c) << 0) +"%";
 //            prog.style.width = perc;
             $(prog).animate({width:perc});
-            stat.innerHTML = "Loading..."+ perc;
+            stat.innerHTML = "Loading...";
             if(c===tot)
                 return doneLoading();
         }
         function doneLoading(){
-            var pause_time = 2500;
+            var pause_time = 3300;
 
             setTimeout(function(){
                 $(stat).fadeOut(800);
-            }, 500);
+            }, 1200);
             setTimeout(function(){
                 $(stat).fadeIn(800);
                 stat.innerHTML = "Enjoy Your Visit!";
-            }, 1300);
+            }, 2000);
 
             setTimeout(function(){
                 ovrl.style.opacity = 0;
