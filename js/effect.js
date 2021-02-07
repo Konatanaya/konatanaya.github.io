@@ -170,7 +170,6 @@ $(document).ready(function(){
             img = document.images,
             c = 0,
             tot = img.length + load_content_functions.length;
-            console.log(load_content_functions[0])
         if(tot == 0)
             return doneLoading();
 
