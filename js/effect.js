@@ -281,11 +281,11 @@ window.onscroll=function(){
 
 $("#navbar-toggler").on("click", function(){
     if($("#navbarSupportedContent").hasClass('show')){
-        $("#navbarSupportedContent").slideUp(400);
+        $("#navbarSupportedContent").slideUp(1000);
         $("#navbarSupportedContent").collapse();
     }
     else{
-        $("#navbarSupportedContent").slideDown(400);
+        $("#navbarSupportedContent").slideDown(1000);
         $("#navbarSupportedContent").collapse();
     }
 });
