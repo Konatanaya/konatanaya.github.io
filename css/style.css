@@ -16,6 +16,9 @@ html,body{
 
 #navbar{
     transition: top 0.5s;
+    -webkit-transition: top 0.5s ease-in-out;
+    -moz-transition: top 0.5s ease-in-out;
+    -o-transition: top 0.5s ease-in-out;
     height: 60px;
 }
 #overlay{
