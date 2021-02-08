@@ -158,7 +158,10 @@ i:hover{
     .side-panel{
         position:fixed;
         height:calc(100vh - 60px  - 20px - 20px);
-        transition: all 0.5s;
+        transition: top 0.5s;
+        -webkit-transition: top 0.5s;
+        -moz-transition: top 0.5s;
+        -o-transition: top 0.5s;
         top:80px;
     }
 
