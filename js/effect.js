@@ -271,18 +271,18 @@ window.onscroll=function(){
         }
     }
     prevScrollpos = currentScrollPos;
-    $("#navbarSupportedContent").slideUp("fast");
+//    $("#navbarSupportedContent").slideUp("fast");
     $("#navbarSupportedContent").collapse('hide');
 };
 
-$("#navbar-toggler").on("click", function(){
-    if($("#navbarSupportedContent").hasClass('show')){
-        $("#navbarSupportedContent").slideUp("fast");
-    }
-    else{
-        $("#navbarSupportedContent").slideDown("fast");
-    }
-});
+//$("#navbar-toggler").on("click", function(){
+//    if($("#navbarSupportedContent").hasClass('show')){
+//        $("#navbarSupportedContent").slideUp("fast");
+//    }
+//    else{
+//        $("#navbarSupportedContent").slideDown("fast");
+//    }
+//});
 
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
