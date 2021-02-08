@@ -183,7 +183,7 @@ $(function(){
                 return doneLoading();
         }
         function doneLoading(){
-            var pause_time = 3300;
+            var pause_time = 3800;
 
             setTimeout(function(){
                 $(stat).fadeOut(800);

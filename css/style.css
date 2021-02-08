@@ -148,7 +148,7 @@ i:hover{
 
     .side-panel{
         position:fixed;
-        height:calc(100vh - 160px);
+        height:calc(100vh - 150px);
     }
 
     #side-column{
