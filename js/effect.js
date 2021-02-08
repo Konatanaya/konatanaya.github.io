@@ -213,9 +213,6 @@ $(function(){
 
         var index_1 = 0;
         mytime_1 = setInterval(function(){
-//            var tImg = new Image();
-//            tImg.onload = imgLoaded;
-//            tImg.onerror = imgLoaded;
             $(img[index_1]).attr('src', $(img[index_1]).attr('data-src'));
             imgLoaded();
             index_1 += 1;
