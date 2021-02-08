@@ -16,10 +16,6 @@ html,body{
 
 #navbar{
     transition: top 0.5s;
-    -webkit-transition: top 0.5s ease-in-out;
-    -moz-transition: top 0.5s ease-in-out;
-    -o-transition: top 0.5s ease-in-out;
-    height: 60px;
 }
 #overlay{
     position:fixed;
@@ -157,12 +153,9 @@ i:hover{
 
     .side-panel{
         position:fixed;
-        height:calc(100vh - 60px - 20px - 20px);
+        height:calc(100vh - 60px  - 20px - 20px);
         transition: all 0.5s;
-        top: 80px;
+        top:80px;
     }
 
-    #side-column{
-
-    }
 }

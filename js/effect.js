@@ -247,9 +247,13 @@ $(".nav .nav-link").on("click", function(){
 $("#news-button").on("click", function(){
     if($("#news-span").html()==="Show News"){
         $("#news-span").text("Hide News");
+        $("#news-list-panel").slideDown();
+        $("#news-list-panel").collapse();
     }
     else{
         $("#news-span").text("Show News");
+        $("#news-list-panel").slideUp();
+        $("#news-list-panel").collapse();
     }
 });
 
@@ -262,27 +266,43 @@ $(window).resize(function () {
 var prevScrollpos = window.pageYOffset;
 window.onscroll=function(){
     var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos){
-        $("#navbar").css("top","0px");
-        adjust_news_height("up");
-    }
-    else{
-        $("#navbar").css("top","-60px");
-        adjust_news_height("down");
-    }
-    prevScrollpos = currentScrollPos;
-};
-
-function adjust_news_height(flag){
     if ($(window).width() >= 992){
-        if(flag == "up"){
+        if (prevScrollpos > currentScrollPos){
+            $("#navbar").css("top","0px");
             $("#news").css("top","80px");
         }
-        else if(flag == "down"){
+        else{
+            $("#navbar").css("top","-60px");
             $("#news").css("top","20px");
         }
     }
-}
+    prevScrollpos = currentScrollPos;
+
+    $("#navbarSupportedContent").slideUp();
+    $("#navbarSupportedContent").collapse('hide');
+};
+
+$("#navbar-toggler").on("click", function(){
+    if($("#navbarSupportedContent").hasClass('show')){
+        $("#navbarSupportedContent").slideUp();
+        $("#navbarSupportedContent").collapse();
+    }
+    else{
+        $("#navbarSupportedContent").slideDown();
+        $("#navbarSupportedContent").collapse();
+    }
+})
+
+$("#navbar-toggler").on("click", function(){
+    if($("#navbarSupportedContent").hasClass('show')){
+        $("#navbarSupportedContent").slideUp();
+        $("#navbarSupportedContent").collapse();
+    }
+    else{
+        $("#navbarSupportedContent").slideDown();
+        $("#navbarSupportedContent").collapse();
+    }
+})
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
 //window.onload = function(){
