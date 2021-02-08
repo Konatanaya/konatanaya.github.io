@@ -294,7 +294,7 @@ $("#navbar-toggler").on("click", function(){
 
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
-//window.onload = function(){
+window.onload = function(){
 //    var test = /-min\./;
 //    $("img").each(function(index,obj){
 //        if(test.test($(this).attr("src"))){
@@ -302,5 +302,6 @@ $("#navbar-toggler").on("click", function(){
 //            $(this).attr("src",reSrc)
 //        }
 //    });
-//};
+    $('#news').width($('#news-col').width()-22);
+};
 
