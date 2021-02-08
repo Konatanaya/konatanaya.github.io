@@ -158,11 +158,11 @@ var load_content_functions = [
     }
 ]
 
+function id(v){
+    return document.getElementById(v);
+}
 // Effect of pre-loading bar
 $(function(){
-    function id(v){
-        return document.getElementById(v);
-    }
     function loadbar() {
         var ovrl = id("overlay"),
             prog = id("progress"),
@@ -178,20 +178,20 @@ $(function(){
             var perc = ((100/tot*c) << 0) +"%";
 //            prog.style.width = perc;
             $(prog).animate({width:perc});
-            stat.innerHTML = "Loading "+ perc;
+            stat.innerHTML = "Loading...";
             if(c===tot)
                 return doneLoading();
         }
         function doneLoading(){
-            var pause_time = 2500;
+            var pause_time = 3800;
 
             setTimeout(function(){
                 $(stat).fadeOut(800);
-            }, 500);
+            }, 1200);
             setTimeout(function(){
                 $(stat).fadeIn(800);
                 stat.innerHTML = "Enjoy Your Visit!";
-            }, 1300);
+            }, 2000);
 
             setTimeout(function(){
                 ovrl.style.opacity = 0;
@@ -207,7 +207,6 @@ $(function(){
             load_content_functions[index_0]();
             imgLoaded();
             index_0 += 1;
-            console.log("!"+index_0);
             if(index_0 == load_content_functions.length)
                 clearInterval(mytime_0);
         }, 300);
@@ -219,21 +218,9 @@ $(function(){
             tImg.onerror = imgLoaded;
             tImg.src = img[index_1].src;
             index_1 += 1;
-            console.log("!!"+index_1);
             if(index_1 == img.length)
                 clearInterval(mytime_1);
         }, 300);
-//        for(var i=0; i<img.length; i++) {
-//            var tImg = new Image();
-//            tImg.onload = imgLoaded;
-//            tImg.onerror = imgLoaded;
-//            tImg.src = img[i].src;
-//        }
-//        for(var i=0; i<load_content_functions.length; i++) {
-//            load_content_functions[i]();
-//            imgLoaded();
-//        }
-
     }
     document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
