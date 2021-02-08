@@ -1,5 +1,6 @@
 html,body{
     height:100%;
+    font-size:16px;
 }
 
 #particles-js{
@@ -13,6 +14,10 @@ html,body{
     background-repeat: no-repeat;
 }
 
+#navbar{
+    transition: top 0.5s;
+    height: 60px;
+}
 #overlay{
     position:fixed;
     z-index:99999;
@@ -143,12 +148,15 @@ i:hover{
 }
 @media only screen and (min-width: 992px) {
     .side-news-scrollbar{
-        height:calc(100vh - 230px);
+        height:calc(100vh - 180px); /*240*/
+        transition: all 0.5s;
     }
 
     .side-panel{
         position:fixed;
-        height:calc(100vh - 150px);
+        height:calc(100vh - 60px - 20px - 20px);
+        transition: all 0.5s;
+        top: 80px;
     }
 
     #side-column{

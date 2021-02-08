@@ -158,11 +158,11 @@ var load_content_functions = [
     }
 ]
 
+function id(v){
+    return document.getElementById(v);
+}
 // Effect of pre-loading bar
 $(function(){
-    function id(v){
-        return document.getElementById(v);
-    }
     function loadbar() {
         var ovrl = id("overlay"),
             prog = id("progress"),
@@ -255,9 +255,34 @@ $("#news-button").on("click", function(){
 
 // Function for resizing the width of the news panel with changing screen width.
 $(window).resize(function () {
-    $('#news').width($('#news-col').width()-20);
+    $('#news').width($('#news-col').width()-22);
 }).resize();
 
+// Automatically hide nav-bar when scrolling down.
+var prevScrollpos = window.pageYOffset;
+window.onscroll=function(){
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos){
+        $("#navbar").css("top","0px");
+        adjust_news_height("up");
+    }
+    else{
+        $("#navbar").css("top","-60px");
+        adjust_news_height("down");
+    }
+    prevScrollpos = currentScrollPos;
+};
+
+function adjust_news_height(flag){
+    if ($(window).width() >= 992){
+        if(flag == "up"){
+            $("#news").css("top","80px");
+        }
+        else if(flag == "down"){
+            $("#news").css("top","20px");
+        }
+    }
+}
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
 //window.onload = function(){
