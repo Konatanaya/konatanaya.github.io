@@ -245,13 +245,13 @@ $(".nav .nav-link").on("click", function(){
 $("#news-button").on("click", function(){
     if($("#news-span").html()==="Show News"){
         $("#news-span").text("Hide News");
-        $("#news-list-panel").slideDown("fast");
-        $("#news-list-panel").collapse();
+//        $("#news-list-panel").slideDown("fast");
+//        $("#news-list-panel").collapse();
     }
     else{
         $("#news-span").text("Show News");
-        $("#news-list-panel").slideUp("fast");
-        $("#news-list-panel").collapse();
+//        $("#news-list-panel").slideUp("fast");
+//        $("#news-list-panel").collapse();
     }
 });
 
@@ -282,11 +282,11 @@ window.onscroll=function(){
 $("#navbar-toggler").on("click", function(){
     if($("#navbarSupportedContent").hasClass('show')){
         $("#navbarSupportedContent").slideUp(2000);
-        $("#navbarSupportedContent").collapse();
+//        $("#navbarSupportedContent").collapse();
     }
     else{
         $("#navbarSupportedContent").slideDown(2000);
-        $("#navbarSupportedContent").collapse();
+//        $("#navbarSupportedContent").collapse();
     }
 });
 
