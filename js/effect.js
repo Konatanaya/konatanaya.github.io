@@ -271,16 +271,16 @@ window.onscroll=function(){
         }
     }
     prevScrollpos = currentScrollPos;
-    $("#navbarSupportedContent").slideUp();
+    $("#navbarSupportedContent").slideUp("fast");
     $("#navbarSupportedContent").collapse('hide');
 };
 
 $("#navbar-toggler").on("click", function(){
     if($("#navbarSupportedContent").hasClass('show')){
-        $("#navbarSupportedContent").slideUp();
+        $("#navbarSupportedContent").slideUp("fast");
     }
     else{
-        $("#navbarSupportedContent").slideDown();
+        $("#navbarSupportedContent").slideDown("fast");
     }
 });
 
