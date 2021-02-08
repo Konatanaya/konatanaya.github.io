@@ -277,7 +277,6 @@ window.onscroll=function(){
         }
     }
     prevScrollpos = currentScrollPos;
-
     $("#navbarSupportedContent").slideUp();
     $("#navbarSupportedContent").collapse('hide');
 };
@@ -291,18 +290,8 @@ $("#navbar-toggler").on("click", function(){
         $("#navbarSupportedContent").slideDown();
         $("#navbarSupportedContent").collapse();
     }
-})
+});
 
-$("#navbar-toggler").on("click", function(){
-    if($("#navbarSupportedContent").hasClass('show')){
-        $("#navbarSupportedContent").slideUp();
-        $("#navbarSupportedContent").collapse();
-    }
-    else{
-        $("#navbarSupportedContent").slideDown();
-        $("#navbarSupportedContent").collapse();
-    }
-})
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
 //window.onload = function(){
