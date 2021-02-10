@@ -45,8 +45,8 @@ var load_content_functions = [
             var index = length-i;
             var item = list[i];
             var authors = getAuthors(item.author);
-            str += "<dd class='col-sm-1 pub-index'>["+type+index+"]</dd><dd class='col-sm-11' >"+authors+". "+item.title+
-            ". <em>"+item.booktitle+"</em>, "+item.year+". "+checkLink(item.pdf)+"PDF</a> "+
+            str += "<dd class='col-lg-1 col-2 pub-index'>["+type+index+"]</dd><dd class='col-lg-11 col-10'>"+authors+". "+item.title+
+            ". <em>"+item.booktitle+"</em>, "+item.year+". <br>"+checkLink(item.pdf)+"PDF</a> "+
              checkLink(item.bibtex)+"Bibtex</a></dd>";
         }
         return str;
@@ -260,18 +260,32 @@ $(window).resize(function () {
 var prevScrollpos = window.pageYOffset;
 window.onscroll=function(){
     var currentScrollPos = window.pageYOffset;
+    var totalheight = parseFloat($(window).height()) +60+ parseFloat($(window).scrollTop());
     if ($(window).width() >= 992){
         if (prevScrollpos > currentScrollPos){
             $("#navbar").css("top","0px");
             $("#news").css("top","80px");
+//            if(($(document).height()) <= totalheight) {
+//                var d_height = totalheight-$(document).height()
+//                $("#news").css("height","calc(100vh - 20px - 20px - "+d_height+"px)");
+//            }
+//            else{
+//                $("#news").css("height","calc(100vh - 20px - 20px - 60px)");
+//            }
         }
         else{
             $("#navbar").css("top","-60px");
             $("#news").css("top","20px");
+//            if(($(document).height()) <= totalheight) {
+//                var d_height = totalheight-$(document).height()
+//                $("#news").css("height","calc(100vh - 20px - 20px - "+d_height+"px)");
+//            }
+//            else{
+//                $("#news").css("height","calc(100vh - 20px - 20px)");
+//            }
         }
     }
     prevScrollpos = currentScrollPos;
-//    $("#navbarSupportedContent").slideUp("fast");
     $("#navbarSupportedContent").collapse('hide');
 };
 
