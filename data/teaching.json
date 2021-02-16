@@ -1,6 +1,11 @@
 [
   {
     "institution": "UTAS",
+    "course": "KIT405: Programming for Intelligent Web Services and Applications",
+    "time": "Semester 1, 2021"
+  },
+  {
+    "institution": "UTAS",
     "course": "KIT306/606: Data Analytics",
     "time": "Semester 2, 2020"
   },
