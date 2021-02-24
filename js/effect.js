@@ -39,18 +39,18 @@ var load_content_functions = [
     },
     function(){//publications
         function generatePublicationList(list, type){
-        var length = list.length;
-        var str = "";
-        for(var i=0 ;i<length;i++){
-            var index = length-i;
-            var item = list[i];
-            var authors = getAuthors(item.author);
-            str += "<dd class='col-lg-1 col-2 pub-index'>["+type+index+"]</dd><dd class='col-lg-11 col-10'>"+authors+". \""+item.title+
-            "\". <em>"+item.booktitle+"</em>, "+item.year+". <br>"+checkLink(item.pdf)+"PDF</a> "+
-             checkLink(item.bibtex)+"Bibtex</a></dd>";
+            var length = list.length;
+            var str = "";
+            for(var i=0 ;i<length;i++){
+                var index = length-i;
+                var item = list[i];
+                var authors = getAuthors(item.author);
+                str += "<dd class='col-lg-1 col-2 pub-index'>["+type+index+"]</dd><dd class='col-lg-11 col-10'>"+authors+". \""+item.title+
+                "\". <em>"+item.booktitle+"</em>, "+item.year+". <br>"+checkLink(item.pdf)+"PDF</a> "+
+                 checkLink(item.bibtex)+"Bibtex</a></dd>";
+            }
+            return str;
         }
-        return str;
-    }
         function checkLink(link){
             if(link == ""){
                 return "<a href='"+link+"' target='_blank' class='btn btn-outline-light btn-xs disabled'>";
@@ -104,9 +104,9 @@ var load_content_functions = [
     },
     function(){//teaching
         function generateTeachingItem(item){
-        var str = "<li>"+item.course+", "+item.time+".</li>";
-        return str;
-    }
+            var str = "<li>"+item.course+", "+item.time+".</li>";
+            return str;
+        }
         $.getJSON("data/teaching.json", function (data) {
         $.each(data, function (index, item) {
             item_code = generateTeachingItem(item);
@@ -260,7 +260,7 @@ $(window).resize(function () {
 var prevScrollpos = window.pageYOffset;
 window.onscroll=function(){
     var currentScrollPos = window.pageYOffset;
-    var totalheight = parseFloat($(window).height()) +60+ parseFloat($(window).scrollTop());
+    var totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
     if ($(window).width() >= 992){
         if (prevScrollpos > currentScrollPos){
             $("#navbar").css("top","0px");
