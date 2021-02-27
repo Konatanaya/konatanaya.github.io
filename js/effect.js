@@ -271,14 +271,6 @@ window.onscroll=function(){
             $("#news").css("top","20px");
         }
     }
-    else{
-        if (prevScrollpos > currentScrollPos){
-            $("#navbar").css("top","0px");
-        }
-        else{
-            $("#navbar").css("top","-60px");
-        }
-    }
     prevScrollpos = currentScrollPos;
     $("#navbarSupportedContent").collapse('hide');
 };
