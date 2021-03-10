@@ -258,31 +258,27 @@ $(window).resize(function () {
 
 // Automatically hide nav-bar when scrolling down.
 var prevScrollpos = window.pageYOffset;
+var news_height = $("#news").height();
 window.onscroll=function(){
     var currentScrollPos = window.pageYOffset;
-    var totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
+    var totalheight = parseFloat($(window).height()) + 30 + parseFloat($(window).scrollTop());
     if ($(window).width() >= 992){
         if (prevScrollpos > currentScrollPos){
             $("#navbar").css("top","0px");
             $("#news").css("top","80px");
+
         }
         else{
             $("#navbar").css("top","-60px");
             $("#news").css("top","20px");
+
         }
     }
     prevScrollpos = currentScrollPos;
     $("#navbarSupportedContent").collapse('hide');
 };
 
-//$("#navbar-toggler").on("click", function(){
-//    if($("#navbarSupportedContent").hasClass('show')){
-//        $("#navbarSupportedContent").slideUp("fast");
-//    }
-//    else{
-//        $("#navbarSupportedContent").slideDown("fast");
-//    }
-//});
+
 
 //Function to reload high resolution images to replace the compressed one when all resources loaded completely,
 //aiming to reduce loading time at the client end.
