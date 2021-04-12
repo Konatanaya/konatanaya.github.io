@@ -117,6 +117,9 @@ var load_content_functions = [
                 case("AUT"):
                     $("#teaching-AUT").append(item_code);
                     break;
+                case("GL"):
+                    $("#guest-lecture").append(item_code);
+                    break;
                 default:
                     break;
             }

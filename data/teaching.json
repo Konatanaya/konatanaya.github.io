@@ -1,5 +1,10 @@
 [
   {
+    "institution": "GL",
+    "course": "\"Recommendation Systems: From `Passive' to `Proactive'.\" Guest Lecture on the class of Artificial Intelligence and Natural Language (KIT719) at University of Tasmania",
+    "time": "October 2020"
+  },
+  {
     "institution": "UTAS",
     "course": "KIT405: Programming for Intelligent Web Services and Applications",
     "time": "Semester 1, 2021"
