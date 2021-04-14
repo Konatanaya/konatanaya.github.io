@@ -1,5 +1,15 @@
 [
   {
+    "title":"ABEM: An Adaptive Agent-based Evolutionary Approach for Mining Influencers in Online Social Networks",
+    "author":["Weihua Li", "Yuxuan Hu","Shiqing Wu", "Quan Bai, and Edmund Lai"],
+    "booktitle":"arXiv",
+    "year":"2021",
+    "note":"",
+    "pdf":"",
+    "bibtex":"",
+    "type":"arxiv"
+  },
+  {
     "title":"Learning Policies for Effective Incentive Allocation in Unknown Social Networks",
     "author":["Shiqing Wu", "Quan Bai, and Weihua Li"],
     "booktitle":"The 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)",

@@ -85,6 +85,7 @@ var load_content_functions = [
         }
         var journals = [];
         var conferences = [];
+        var arxiv = [];
         $.getJSON("data/publications.json", function (data) {
             $.each(data, function (index, item) {
                 switch(item.type){
@@ -94,12 +95,15 @@ var load_content_functions = [
                     case("conference"):
                         conferences.push(item);
                         break;
+                    case("arxiv"):
+                        arxiv.push(item);
                     default:
                         break;
                 }
             });
-            $("#journal-list").append(generatePublicationList(journals,'J'))
+            $("#journal-list").append(generatePublicationList(journals,'J'));
             $('#conference-list').append(generatePublicationList(conferences, 'C'));
+            $("#arxiv-list").append(generatePublicationList(arxiv, 'A'));
         });
     },
     function(){//teaching
