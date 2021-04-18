@@ -104,6 +104,9 @@ var load_content_functions = [
             $("#journal-list").append(generatePublicationList(journals,'J'));
             $('#conference-list').append(generatePublicationList(conferences, 'C'));
             $("#arxiv-list").append(generatePublicationList(arxiv, 'A'));
+            if(arxiv.length==0){
+                $("#arxiv-div").css("display","None");
+            }
         });
     },
     function(){//teaching
