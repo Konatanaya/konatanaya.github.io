@@ -15,8 +15,8 @@
     "booktitle":"The 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)",
     "year":"2021",
     "note":"",
-    "pdf":"",
-    "bibtex":"",
+    "pdf":"http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1701.pdf",
+    "bibtex":"bibtex/Wu2021Learning.bib",
     "type":"conference"
   },
   {

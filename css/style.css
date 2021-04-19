@@ -158,6 +158,11 @@ i:hover{
     width:50%;
 }
 
+.icon {
+    height: 35px;
+    width: 35px;
+}
+
 @media only screen and (min-width: 992px) {
     .side-news-scrollbar{
         height:calc(100vh - 180px); /*240*/
