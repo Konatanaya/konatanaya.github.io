@@ -1,5 +1,10 @@
 [
   {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Semester 2, 2021"
+  },
+  {
     "institution": "GL",
     "course": "\"Recommendation Systems: From 'Passive' to 'Proactive'.\" Guest Lecture on the class of Artificial Intelligence and Natural Language (KIT719) at University of Tasmania",
     "time": "October 2020"
