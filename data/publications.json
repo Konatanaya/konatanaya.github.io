@@ -1,5 +1,25 @@
 [
   {
+    "title":"An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks",
+    "author": ["Chenting Jiang", "Anthony D'Arienzo", "Weihua Li", "Shiqing Wu", "and Quan Bai"],
+    "booktitle":"Journal of Systems Science and Systems Engineering",
+    "year":"2018",
+    "note":"",
+    "pdf":"https://link.springer.com/article/10.1007/s11518-018-5368-6",
+    "bibtex":"bibtex/Wu2018Greencommute.bib",
+    "type":"journal"
+  },
+  {
+    "title":"Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction",
+    "author":["Shiqing Wu", "Weihua Li", "Hao Shen, and Quan Bai"],
+    "booktitle":"arXiv",
+    "year":"2021",
+    "note":"",
+    "pdf":"",
+    "bibtex":"",
+    "type":"arxiv"
+  },
+  {
     "title":"ABEM: An Adaptive Agent-based Evolutionary Approach for Mining Influencers in Online Social Networks",
     "author":["Weihua Li", "Yuxuan Hu","Shiqing Wu", "Quan Bai, and Edmund Lai"],
     "booktitle":"arXiv",
