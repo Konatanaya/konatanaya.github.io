@@ -1,5 +1,11 @@
 [
   {
+    "type":"journal",
+    "date":"22 Jun 2020",
+    "content":"Our paper \"An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks\" is accepted by ",
+    "journal":"<a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8964404\" target=\"_blank\" class=\"link-text-color\">Journal of Social Computing</a>"
+  },
+  {
     "type":"conference",
     "date":"18 Dec 2020",
     "content":"Our paper \"Learning Policies for Effective Incentive Allocation in Unknown Social Networks\" is accepted at ",

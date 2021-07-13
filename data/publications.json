@@ -1,12 +1,12 @@
 [
   {
     "title":"An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks",
-    "author": ["Chenting Jiang", "Anthony D'Arienzo", "Weihua Li", "Shiqing Wu", "and Quan Bai"],
-    "booktitle":"Journal of Systems Science and Systems Engineering",
-    "year":"2018",
+    "author": ["Chenting Jiang", "Anthony D'Arienzo", "Weihua Li", "Shiqing Wu", ", and Quan Bai"],
+    "booktitle":"Journal of Social Computing",
+    "year":"2021",
     "note":"",
-    "pdf":"https://link.springer.com/article/10.1007/s11518-018-5368-6",
-    "bibtex":"bibtex/Wu2018Greencommute.bib",
+    "pdf":"",
+    "bibtex":"",
     "type":"journal"
   },
   {
