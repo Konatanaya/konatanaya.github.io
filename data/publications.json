@@ -1,0 +1,213 @@
+[
+  {
+    "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
+    "author": [
+      "Mengyan Wang",
+      "Weihua Li",
+      "Jingli Shi",
+      "Shiqing Wu",
+      " and Quan Bai"
+    ],
+    "booktitle": "arXiv",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://arxiv.org/abs/2302.01443",
+    "type": "arxiv"
+  },
+  {
+    "title": "ABEM: An Adaptive Agent-based Evolutionary Approach for Influence Maximization in Dynamic Social Networks",
+    "author": [
+      "Weihua Li",
+      "Yuxuan Hu",
+      "Chenting Jiang",
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Edmund Lai"
+    ],
+    "booktitle": "Applied Soft Computing",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S1568494623000807",
+    "type": "journal"
+  },
+  {
+    "title": "Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      "Hao Shen",
+      " and Quan Bai"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025522015663",
+    "type": "journal"
+  },
+  {
+    "title": "Game Theory Based Compatible Incentive Mechanism Design for Non-Cryptocurrency Blockchain Systems",
+    "author": [
+      "Xiang Li",
+      "Qing Liu",
+      "Shiqing Wu",
+      "Zehong Cao",
+      " and Quan Bai"
+    ],
+    "booktitle": "Journal of Industrial Information Integration",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S2452414X22000930",
+    "type": "journal"
+  },
+  {
+    "title": "GAC: A Deep Reinforcement Learning Model Toward User Incentivization in Unknown Social Networks",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      " and Quan Bai"
+    ],
+    "booktitle": "Knowledge-Based Systems",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0950705122011534",
+    "type": "journal"
+  },
+  {
+    "title": "AI Facilitated Isolations? The Impact of Recommendation-based Influence Diffusion in Human Society",
+    "author": [
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Chenting Jiang",
+      "Weihua Li",
+      "Quan Bai",
+      " and Erin Roehrer"
+    ],
+    "booktitle": "The 31st International Joint Conference on Artificial Intelligence (IJCAI)",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://www.ijcai.org/proceedings/2022/705",
+    "type": "conference"
+  },
+  {
+    "title": "GAC: A Deep Reinforcement Learning Model Toward User Incentivization in Unknown Social Networks",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      " and Quan Bai"
+    ],
+    "booktitle": "arXiv",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://arxiv.org/abs/2203.09578",
+    "type": "arxiv"
+  },
+  {
+    "title": "OMT: An Operate-based Approach for Modelling Multi-topic Influence Diffusion in Online Social Networks",
+    "author": [
+      "Chenting Jiang",
+      "Weihua Li",
+      "Shiqing Wu",
+      " and Quan Bai"
+    ],
+    "booktitle": "The 22nd International Conference on Web Information Systems Engineering (WISE)",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-90888-1_41",
+    "type": "conference"
+  },
+  {
+    "title": "An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks",
+    "author": [
+      "Chenting Jiang",
+      "Anthony D'Arienzo",
+      "Weihua Li",
+      "Shiqing Wu",
+      " and Quan Bai"
+    ],
+    "booktitle": "Journal of Social Computing",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/9520810/",
+    "type": "journal"
+  },
+  {
+    "title": "Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      "Hao Shen",
+      " and Quan Bai"
+    ],
+    "booktitle": "arXiv",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://arxiv.org/abs/2107.05992",
+    "type": "arxiv"
+  },
+  {
+    "title": "ABEM: An Adaptive Agent-based Evolutionary Approach for Mining Influencers in Online Social Networks",
+    "author": [
+      "Weihua Li",
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Edmund Lai"
+    ],
+    "booktitle": "arXiv",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://arxiv.org/abs/2104.06563",
+    "type": "arxiv"
+  },
+  {
+    "title": "Learning Policies for Effective Incentive Allocation in Unknown Social Networks",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Weihua Li"
+    ],
+    "booktitle": "The 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)",
+    "year": "2021",
+    "note": "",
+    "pdf": "http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1701.pdf",
+    "type": "conference"
+  },
+  {
+    "title": "Incentivizing Long-term Engagement Under Limited Budget",
+    "author": [
+      "Shiqing Wu",
+      "and Quan Bai"
+    ],
+    "booktitle": "The 16th Pacific Rim International Conference on Artirficial Intelligence (PRICAI)",
+    "year": "2019",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_52",
+    "type": "conference"
+  },
+  {
+    "title": "Adaptive Incentive Allocation for Influence-aware Proactive Recommendation",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Byeong Ho Kang"
+    ],
+    "booktitle": "The 16th Pacific Rim International Conference on Artirficial Intelligence (PRICAI)",
+    "year": "2019",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_51",
+    "type": "conference"
+  },
+  {
+    "title": "Greencommute: An Influence-aware Persuasive Recommendation Approach for Public-friendly Commute Options",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Sotsay Sengvong"
+    ],
+    "booktitle": "Journal of Systems Science and Systems Engineering",
+    "year": "2018",
+    "note": "",
+    "pdf": "https://link.springer.com/article/10.1007/s11518-018-5368-6",
+    "type": "journal"
+  }
+]

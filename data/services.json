@@ -1,0 +1,116 @@
+[
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Human-Centric Intelligent Systems",
+    "year": "February 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Web Chair and PC Member",
+    "name": "the 10th International Conference on Behavioural and Social Computing (BESC)",
+    "year": "November 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    "year": "August 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "July 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 27th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+    "year": "May 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 28th International Conference on Database Systems for Advanced Applications (DASFAA)",
+    "year": "April 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 16th ACM International Conference on Web Search and Data Mining (WSDM)",
+    "year": "February 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 9th International Conference on Behavioural and Social Computing (BESC)",
+    "year": "October 2022"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 22nd IEEE International Conference on Data Mining (ICDM)",
+    "year": "November 2022"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Information Processing & Management",
+    "year": "July 2022"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "The Computer Journal",
+    "year": "May 2022"
+  },
+  {
+    "type": "conference",
+    "role": "Publicity Chair",
+    "name": "Principle and practice of data and Knowledge Acquisition Workshop 2022 (PKAW)",
+    "year": "November 2022"
+  },
+  {
+    "type": "conference",
+    "role": "Webmaster and PC Member",
+    "name": "the 19th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "November 2022"
+  },
+  {
+    "type": "conference",
+    "role": "Webmaster and Reviewer",
+    "name": "Principle and practice of data and Knowledge Acquisition Workshop 2020 (PKAW)",
+    "year": "January 2021"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Computers in Human Behavior",
+    "year": "September 2019"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 16th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "August 2019"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 21st International Conference on Principles and Practice of Multi-Agent Systems (PRIMA)",
+    "year": "November 2018"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 15th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "August 2018"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 15th Pacific Rim Knowledge Acquisition Workshop (PKAW)",
+    "year": "August 2018"
+  }
+]

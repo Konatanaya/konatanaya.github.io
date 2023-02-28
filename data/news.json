@@ -1,0 +1,86 @@
+[
+  {
+    "type": "normal",
+    "date": "25 February 2023",
+    "content": "I am invited to be a PC Member of <a href=\"http://besc-conf.org/2023/\" target=\"_blank\" class=\"link-text-color\">BESC 2023</a>."
+  },
+  {
+    "type": "journal",
+    "date": "31 Jan 2023",
+    "content": "Our paper \"ABEM: An Adaptive Agent-based Evolutionary Approach for Influence Maximization in Dynamic Social Networks\" is accepted by ",
+    "journal": "<a href=\"https://www.sciencedirect.com/journal/applied-soft-computing\" target=\"_blank\" class=\"link-text-color\">Applied Soft Computing</a>"
+  },
+  {
+    "type": "journal",
+    "date": "28 Dec 2022",
+    "content": "Our paper \"Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction\" is accepted by ",
+    "journal": "<a href=\"https://www.sciencedirect.com/journal/information-sciences\" target=\"_blank\" class=\"link-text-color\">Information Sciences</a>"
+  },
+  {
+    "type": "journal",
+    "date": "14 Dec 2022",
+    "content": "Our paper \"Game Theory Based Compatible Incentive Mechanism Design for Non-Cryptocurrency Blockchain Systems\" is accepted by ",
+    "journal": "<a href=\"https://www.sciencedirect.com/journal/journal-of-industrial-information-integration\" target=\"_blank\" class=\"link-text-color\">Journal of Industrial Information Integration</a>"
+  },
+  {
+    "type": "normal",
+    "date": "10 November 2022",
+    "content": "I am invited to give a keynote speech at <a href=\"https://zhcaonctu.wixsite.com/ieee-ica-2022\" target=\"_blank\" class=\"link-text-color\">IEEE ICA 2022</a>. The speech title is <em>Influence-aware Incentive Allocation Problem under Uncertainty</em>."
+  },
+  {
+    "type": "journal",
+    "date": "28 Oct 2022",
+    "content": "Our paper \"GAC: A Deep Reinforcement Learning Model Toward User Incentivization in Unknown Social Networks\" is accepted by ",
+    "journal": "<a href=\"https://authors.elsevier.com/a/1g5kD3OAb95McE\" target=\"_blank\" class=\"link-text-color\">Knowledge-Based Systems</a>"
+  },
+  {
+    "type": "normal",
+    "date": "10 August 2022",
+    "content": "I am invited to be a PC Member of <a href=\"http://pricai.org/2022\" target=\"_blank\" class=\"link-text-color\">PRICAI 2022</a>."
+  },
+  {
+    "type": "normal",
+    "date": "01 May 2022",
+    "content": "I am invited to be the Publicity Chair of <a href=\"https://pkawwebsite.github.io/2022/\" target=\"_blank\" class=\"link-text-color\">PKAW 2022</a>, which will be held with <a href=\"http://pricai.org/2022\" target=\"_blank\" class=\"link-text-color\">PRICAI 2022</a>. Submissions are welcome!"
+  },
+  {
+    "type": "conference",
+    "date": "23 April 2022",
+    "content": "Our paper \"AI Facilitated Isolations? The Impact of Recommendation-based Influence Diffusion in Human Society\" is accepted by ",
+    "conference": "<a href=\"https://ijcai-22.org/\" target=\"_blank\" class=\"link-text-color\">IJCAI-ECAI 2022</a>"
+  },
+  {
+    "type": "normal",
+    "date": "28 March 2022",
+    "content": "I am invited to be the Webmaster of <a href=\"http://pricai.org/2022\" target=\"_blank\" class=\"link-text-color\">PRICAI 2022</a>. Submissions are welcome!"
+  },
+  {
+    "type": "conference",
+    "date": "20 Aug 2021",
+    "content": "Our paper \"OMT: An Operate-based Approach for Modelling Multi-topic Influence Diffusion in Online Social Networks\" is accepted by ",
+    "conference": "<a href=\"http://www.wise-conferences.org/2021/index.html\" target=\"_blank\" class=\"link-text-color\">WISE 2021</a>"
+  },
+  {
+    "type": "journal",
+    "date": "22 Jun 2021",
+    "content": "Our paper \"An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks\" is accepted by ",
+    "journal": "<a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8964404\" target=\"_blank\" class=\"link-text-color\">Journal of Social Computing</a>"
+  },
+  {
+    "type": "conference",
+    "date": "18 Dec 2020",
+    "content": "Our paper \"Learning Policies for Effective Incentive Allocation in Unknown Social Networks\" is accepted by ",
+    "conference": "<a href=\"https://aamas2021.soton.ac.uk/\" target=\"_blank\" class=\"link-text-color\">AAMAS 2021</a>"
+  },
+  {
+    "type": "normal",
+    "date": "25 Nov 2019",
+    "content": "I am invited to be the Webmaster of <a href=\"http://www.pkaw.org/pkaw2020/\" target=\"_blank\" class=\"link-text-color\">PKAW 2020</a>, which will be held with <a href=\"https://ijcai20.org/\" target=\"_blank\" class=\"link-text-color\">IJCAI-PRICAI 2020</a>. Submissions are welcome!"
+  },
+  {
+    "type": "conference",
+    "date": "3 Jun 2019",
+    "content": "Our papers \"Adaptive Incentive Allocation for Influence-aware Proactive Recommendation\" and \"Incentivizing Long-term Engagement Under Limited Budget\" are accepted by ",
+    "conference": "<a href=\"https://www.pricai.org/2019/\" target=\"_blank\" class=\"link-text-color\">PRICAI 2019</a>"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "category": "IT",
+    "type": "Invited Talks",
+    "description": "titled \"Generative Artificial Intelligence: A Case Study of ChatGPT\" at Auckland University of Technology (online)",
+    "time": "Febuary 2023"
+  },
+  {
+    "category": "IT",
+    "type": "Keynote Speech",
+    "description": "titled \"Influence-aware Incentive Allocation Problem under Uncertainty\" at the 6th IEEE International Conference on Agents",
+    "time": "November 2022"
+  },
+  {
+    "category": "IT",
+    "type": "Invited Talks",
+    "description": "titled \"Influence-aware Incentive Allocation Problem\" in the Data Science and Machine Intelligence (DSMI) lab at the University of Technology Sydney",
+    "time": "July 2022"
+  },
+  {
+    "category": "IT",
+    "type": "Invited Talks",
+    "description": "titled \"Influence-aware Incentive Allocation\" in the Alibaba Research Center for Complexity Sciences at Hangzhou Normal University",
+    "time": "November 2020"
+  },
+  {
+    "category": "GL",
+    "type": "Guest Lecture",
+    "description": "titled \"Proactive Recommendation Systems\" on the class of Artificial Intelligence and Natural Language (KIT719) at University of Tasmania",
+    "time": "May 2022"
+  },
+  {
+    "category": "GL",
+    "type": "Guest Lecture",
+    "description": "titled \"Proactive Recommendation Systems\" on the class of Artificial Intelligence and Natural Language (KIT719) at University of Tasmania",
+    "time": "October 2021"
+  },
+  {
+    "category": "GL",
+    "type": "Guest Lecture",
+    "description": "titled \"Artificial Intelligence in Games\" on the class of Introduction to Artificial Intelligence (KIT509) at University of Tasmania",
+    "time": "October 2021"
+  },
+  {
+    "category": "GL",
+    "type": "Guest Lecture",
+    "description": "titled \"Recommendation Systems: From 'Passive' to 'Proactive'.\" on the class of Artificial Intelligence and Natural Language (KIT719) at University of Tasmania",
+    "time": "October 2020"
+  }
+]

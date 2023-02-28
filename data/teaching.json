@@ -1,0 +1,47 @@
+[
+  {
+    "institution": "USQ",
+    "course": "CSC8003: Machine Learning",
+    "time": "Semester 3, 2022"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Semester 2, 2021"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT405: Programming for Intelligent Web Services and Applications",
+    "time": "Semester 1, 2021"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Semester 2, 2020"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 2, 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 1, 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 2, 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Semester 1, 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603: Program Design and Construction",
+    "time": "Semester 2, 2017"
+  }
+]
