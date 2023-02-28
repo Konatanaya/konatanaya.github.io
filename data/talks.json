@@ -1,7 +1,7 @@
 [
   {
     "category": "IT",
-    "type": "Invited Talks",
+    "type": "Invited Talk",
     "description": "titled \"Generative Artificial Intelligence: A Case Study of ChatGPT\" at Auckland University of Technology (online)",
     "time": "Febuary 2023"
   },
@@ -13,13 +13,13 @@
   },
   {
     "category": "IT",
-    "type": "Invited Talks",
+    "type": "Invited Talk",
     "description": "titled \"Influence-aware Incentive Allocation Problem\" in the Data Science and Machine Intelligence (DSMI) lab at the University of Technology Sydney",
     "time": "July 2022"
   },
   {
     "category": "IT",
-    "type": "Invited Talks",
+    "type": "Invited Talk",
     "description": "titled \"Influence-aware Incentive Allocation\" in the Alibaba Research Center for Complexity Sciences at Hangzhou Normal University",
     "time": "November 2020"
   },

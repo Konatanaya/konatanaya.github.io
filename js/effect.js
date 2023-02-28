@@ -266,14 +266,14 @@ $(document).scroll(function() {
         $('.nav-item a').css('font-size','18px');
         $("#news").css("top","80px");
         if($(window).width()<1400){
-            $('.navbar-toggler').css('height', '60px');
+            $('#navbar-toggler').css('height', '60px');
         }
     }else {
         $('.navbar').css('height','80px');
         $('.nav-item a').css('font-size','20px');
         $("#news").css("top","100px");
         if($(window).width()<1400){
-            $('.navbar-toggler').css('height', '80px');
+            $('#navbar-toggler').css('height', '80px');
         }
     }
     if(scroH >500){
