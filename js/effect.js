@@ -291,4 +291,7 @@ $('#go-top-btn').bind("click", function(e) {
 });
 
 
-//$('[data-trigger="hover"]').popover()
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
