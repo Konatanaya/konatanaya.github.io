@@ -93,7 +93,7 @@ var load_content_functions = [
                 var index = length-i;
                 var item = list[i];
                 var authors = getAuthors(item.author);
-                str += "<dd class='col-2 col-xxl-1 text-center'>["+type+index+"]</dd><dd class='col-10 col-xxl-11'>"+authors+". \""+item.title+
+                str += "<dd class='col-2 col-lg-1 text-center'>["+type+index+"]</dd><dd class='col-10 col-lg-11'>"+authors+". \""+item.title+
                 "\". <em>"+item.booktitle+"</em>, "+item.year+". "+checkLink(item.pdf)+"<i class='fas fa-file-pdf text-color'></i></a> ";
             }
             return str;
