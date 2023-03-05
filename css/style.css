@@ -297,7 +297,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 992px) {
     html,body{
         font-size: 20px;
     }
@@ -312,6 +312,13 @@ body {
 }
 
 @media only screen and (max-width: 1400px) {
+    #navbarNavDropdown{
+        background-color: rgba(30, 54, 133, 0.6);
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .bio-panel{
         text-align:center;
     }
@@ -324,11 +331,6 @@ body {
     .main-panel{
         padding: 50px 15px 50px 15px;
         border-radius: 10px;
-    }
-
-    #navbarNavDropdown{
-        background-color: rgba(30, 54, 133, 0.6);
-        padding: 10px;
     }
 
     #side-column{
@@ -347,57 +349,4 @@ body {
     #news-button{
         height: 40px;
     }
-<!--    .navbar-collapse{-->
-<!--        background-color:rgb(0, 105, 92, 0);-->
-<!--    }-->
-
-<!--    .navbar-toggler{-->
-<!--        animation-duration: 0.5s;-->
-<!--        transition: all 0.5s;-->
-<!--    }-->
-<!--    .carousel-caption{-->
-<!--        top: 50%;-->
-<!--        transform: translateY(-50%);-->
-<!--        bottom: initial;-->
-<!--        background-color: rgba(0, 105, 92, 0.8);-->
-<!--        height: 50%;-->
-<!--        padding: 30px;-->
-
-<!--        animation-duration: 2s;-->
-<!--        animation-delay: 1s;-->
-<!--    }-->
-<!--    .banner #title{-->
-<!--        position:absolute;-->
-<!--        top: 50%;-->
-<!--        left: 50%;-->
-<!--        width: content-width;-->
-<!--        padding: 10px 30px 10px 30px;-->
-<!--        background-color: rgba(0, 105, 92, 0.8);-->
-<!--        transform: translate(-50%,-50%);-->
-<!--        bottom: initial;-->
-<!--        text-align:center;-->
-<!--        text-transform: uppercase;-->
-<!--        animation-duration: 2s;-->
-<!--        animation-delay:1.2s;-->
-<!--    }-->
-
-
-
-<!--    .fa-caret-right{-->
-<!--        transform: rotate(90deg);-->
-<!--    }-->
-
-<!--    .img-frame{-->
-<!--        width:100%;-->
-<!--        height: 0;-->
-<!--        padding-bottom: 100%;-->
-<!--        margin: 0 auto;-->
-<!--        overflow:hidden;-->
-<!--    }-->
-<!--    .committee-sub{-->
-<!--        width:100%;-->
-<!--    }-->
-<!--    .main-text{-->
-<!--        padding: 0px 5px 15px 5px;-->
-<!--    }-->
 }
