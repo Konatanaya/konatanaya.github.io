@@ -1,5 +1,11 @@
 [
   {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "November 2023"
+  },
+  {
     "type": "journal",
     "role": "Reviewer",
     "name": "Human-Centric Intelligent Systems",
