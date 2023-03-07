@@ -274,17 +274,31 @@ body {
 }
 
 .side-news-scrollbar::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 .side-news-scrollbar::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 5px rgba(30, 54, 133, .2)
+    -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 244, .2);
     background: rgba(30, 54, 133, .1)
 }
 .side-news-scrollbar::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 5px rgba(30, 54, 133, .2)
-    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 5px rgba(30, 54, 133, .2);
+    border-radius: 10px;
+    background: rgba(30, 54, 133, .1);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px rgba(30, 54, 133, .2);
     background: rgba(30, 54, 133, .1)
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 244, .2);
+    border-radius: 10px;
+    background: rgba(30, 54, 133, .1);
 }
 
 .content{
@@ -334,7 +348,7 @@ body {
     }
 
     #side-column{
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .side-news-scrollbar{
