@@ -1,6 +1,12 @@
 [
   {
     "type": "conference",
+    "role": "Web Chair",
+    "name": "the 7th IEEE International Conference on Agents (ICA)",
+    "year": "November 2023"
+  },
+  {
+    "type": "conference",
     "role": "PC Member",
     "name": "the 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
     "year": "November 2023"
