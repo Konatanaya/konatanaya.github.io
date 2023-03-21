@@ -305,6 +305,9 @@ body {
     padding: 10px 0 10px 0;
 }
 
+#clustrmaps{
+    display:none;
+}
 @media (min-width: 1600px) {
     .container{
         min-width: 1400px;
