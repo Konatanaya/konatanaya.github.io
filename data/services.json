@@ -3,7 +3,13 @@
     "type": "conference",
     "role": "Web Chair",
     "name": "the 7th IEEE International Conference on Agents (ICA)",
-    "year": "November 2023"
+    "year": "December 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Workshop Chair",
+    "name": "2023 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
+    "year": "December 2023"
   },
   {
     "type": "conference",
