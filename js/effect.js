@@ -48,39 +48,13 @@ function doneLoading(){
 
 var load_content_functions = [
     function(){//news
-        function generateConferenceNews(item){
-            var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.conference+".</li><br>";
-            return str;
-        }
-        function generateJournalNews(item){
-            var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.journal+".</li><br>";
-            return str;
-        }
-        function generateWorkshopNews(item){
-            var str = "<li><b>["+item.date+"]</b><br>" + item.content + item.workshop+".</li><br>";
-            return str;
-        }
-        function generateNormalNews(item){
+        function generateNews(item){
             var str = "<li><b>["+item.date+"]</b><br>" + item.content +"</li><br>";
             return str;
         }
         $.getJSON("data/news.json", function (data) {
             $.each(data, function (index, item) {
-                switch(item.type){
-                    case("journal"):
-                        item_code = generateJournalNews(item);
-                        break;
-                    case("conference"):
-                        item_code = generateConferenceNews(item);
-                        break;
-                    case("workshop"):
-                        item_code = generateWorkshopNews(item);
-                        break;
-                    case("normal"):
-                        item_code = generateNormalNews(item);
-                    default:
-                        break;
-                }
+                item_code = generateNews(item);
                 $("#news-list").append(item_code)
             });
         });
