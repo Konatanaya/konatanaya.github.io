@@ -1,5 +1,19 @@
 [
   {
+    "title": "Dynamic Graph Evolution Learning for Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Guandong Xu",
+      " and Qing Li"
+    ],
+    "booktitle": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "2023",
+    "note": "",
+    "pdf": "",
+    "type": "conference"
+  },
+  {
     "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
     "author": [
       "Mengyan Wang",

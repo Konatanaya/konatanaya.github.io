@@ -1,7 +1,13 @@
 [
   {
+    "type": "conference",
+    "date": "05 April 2023",
+    "content": "Our paper \"Dynamic Graph Evolution Learning for Recommendation\" is accepted by ",
+    "conference": "<a href=\"https://sigir.org/sigir2023/\" target=\"_blank\" class=\"link-text-color\">SIGIR 2023</a>"
+  },
+  {
     "type": "normal",
-    "date": "08 March 2023",
+    "date": "02 April 2023",
     "content": "I will be the Workshop Chair of <a href=\"https://pkawwebsite.github.io/2023/\" target=\"_blank\" class=\"link-text-color\">PKAW 2023</a>. Submissions are welcome!"
   },
   {
