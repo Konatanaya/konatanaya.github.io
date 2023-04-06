@@ -1,16 +1,17 @@
 [
   {
     "type": "conference",
-    "role": "Web Chair",
-    "name": "the 7th IEEE International Conference on Agents (ICA)",
-    "year": "December 2023"
-  },
-  {
-    "type": "conference",
     "role": "Workshop Chair",
     "name": "2023 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "December 2023"
   },
+  {
+    "type": "conference",
+    "role": "Web Chair",
+    "name": "the 7th IEEE International Conference on Agents (ICA)",
+    "year": "December 2023"
+  },
+
   {
     "type": "conference",
     "role": "PC Member",
@@ -86,7 +87,7 @@
   {
     "type": "conference",
     "role": "Publicity Chair",
-    "name": "Principle and practice of data and Knowledge Acquisition Workshop 2022 (PKAW)",
+    "name": "2022 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "November 2022"
   },
   {
@@ -98,7 +99,7 @@
   {
     "type": "conference",
     "role": "Webmaster and Reviewer",
-    "name": "Principle and practice of data and Knowledge Acquisition Workshop 2020 (PKAW)",
+    "name": "2020 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "January 2021"
   },
   {
