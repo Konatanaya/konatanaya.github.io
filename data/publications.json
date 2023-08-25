@@ -1,5 +1,22 @@
 [
   {
+    "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
+    "author": [
+      "Mengyan Wang",
+      "Yuxuan Hu",
+      "Zihan Yuan",
+      "Chenting Jiang",
+      "Weihua Li",
+      "Shiqing Wu",
+      " and Quan Bai"
+    ],
+    "booktitle": "arXiv",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://arxiv.org/abs/2307.02797",
+    "type": "arxiv"
+  },
+  {
     "title": "BeECD: Belief-aware Echo Chamber Detection over Twitter Stream",
     "author": [
       "Guan Wang",
@@ -118,19 +135,6 @@
     "type": "conference"
   },
   {
-    "title": "GAC: A Deep Reinforcement Learning Model Toward User Incentivization in Unknown Social Networks",
-    "author": [
-      "Shiqing Wu",
-      "Weihua Li",
-      " and Quan Bai"
-    ],
-    "booktitle": "arXiv",
-    "year": "2022",
-    "note": "",
-    "pdf": "https://arxiv.org/abs/2203.09578",
-    "type": "arxiv"
-  },
-  {
     "title": "OMT: An Operate-based Approach for Modelling Multi-topic Influence Diffusion in Online Social Networks",
     "author": [
       "Chenting Jiang",
@@ -158,35 +162,6 @@
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/9520810/",
     "type": "journal"
-  },
-  {
-    "title": "Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction",
-    "author": [
-      "Shiqing Wu",
-      "Weihua Li",
-      "Hao Shen",
-      " and Quan Bai"
-    ],
-    "booktitle": "arXiv",
-    "year": "2021",
-    "note": "",
-    "pdf": "https://arxiv.org/abs/2107.05992",
-    "type": "arxiv"
-  },
-  {
-    "title": "ABEM: An Adaptive Agent-based Evolutionary Approach for Mining Influencers in Online Social Networks",
-    "author": [
-      "Weihua Li",
-      "Yuxuan Hu",
-      "Shiqing Wu",
-      "Quan Bai",
-      " and Edmund Lai"
-    ],
-    "booktitle": "arXiv",
-    "year": "2021",
-    "note": "",
-    "pdf": "https://arxiv.org/abs/2104.06563",
-    "type": "arxiv"
   },
   {
     "title": "Learning Policies for Effective Incentive Allocation in Unknown Social Networks",
