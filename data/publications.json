@@ -1,5 +1,20 @@
 [
   {
+    "title": "BeECD: Belief-aware Echo Chamber Detection over Twitter Stream",
+    "author": [
+      "Guan Wang",
+      "Weihua Li",
+      "Shiqing Wu",
+      "Quan Bai",
+      " and Edmund Lai"
+    ],
+    "booktitle": "The 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2023",
+    "note": "",
+    "pdf": "",
+    "type": "conference"
+  },
+  {
     "title": "Dynamic Graph Evolution Learning for Recommendation",
     "author": [
       "Haoran Tang",
@@ -10,7 +25,7 @@
     "booktitle": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
     "year": "2023",
     "note": "",
-    "pdf": "",
+    "pdf": "https://dl.acm.org/doi/abs/10.1145/3539618.3591674",
     "type": "conference"
   },
   {

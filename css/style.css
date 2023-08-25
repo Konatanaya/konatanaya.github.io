@@ -257,7 +257,10 @@ body {
     border: none;
     box-shadow: none;
 }
-
+a.disabled {
+  color: gray;
+  pointer-events: none;
+}
 #news-list-panel{
     padding: 5px 5px 5px 5px;
 }

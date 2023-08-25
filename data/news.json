@@ -1,5 +1,9 @@
 [
   {
+    "date": "25 August 2023",
+    "content": "Our paper \"BeECD: Belief-aware Echo Chamber Detection over Twitter Stream\" is accepted by <a href=\"https://www.pricai.org/2023/\" target=\"_blank\" class=\"link-text-color\">PRICAI 2023</a>."
+  },
+  {
     "date": "05 April 2023",
     "content": "Our paper \"Dynamic Graph Evolution Learning for Recommendation\" is accepted by <a href=\"https://sigir.org/sigir2023/\" target=\"_blank\" class=\"link-text-color\">SIGIR 2023</a>."
   },

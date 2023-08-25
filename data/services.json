@@ -1,13 +1,43 @@
 [
   {
     "type": "conference",
+    "role": "Reviewer",
+    "name": "the 23rd IEEE International Conference on Data Mining (ICDM)",
+    "year": "December 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 32nd ACM International Conference on Information and Knowledge Management (CIKM)",
+    "year": "October 2023"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 1st International Conference on AI-generated Content (AIGC)",
+    "year": "August 2023"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in\nDatabases 2023 (ECML-PKDD)",
+    "year": "September 2023"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Network Science and Engineering",
+    "year": "July 2023"
+  },
+  {
+    "type": "conference",
     "role": "Workshop Chair",
     "name": "2023 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "December 2023"
   },
   {
     "type": "conference",
-    "role": "Web Chair",
+    "role": "Web Chair and PC Member",
     "name": "the 7th IEEE International Conference on Agents (ICA)",
     "year": "December 2023"
   },
