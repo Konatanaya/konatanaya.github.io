@@ -1,5 +1,31 @@
 [
   {
+    "title": "IE-Evo: Internal and External Evolution-Enhanced Temporal Knowledge Graph Forecasting",
+    "author": [
+      "Kangzheng Liu",
+      "Feng Zhao",
+      "Guandong Xu",
+      "Shiqing Wu"
+    ],
+    "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
+    "year": "2023",
+    "note": "",
+    "pdf": "",
+    "type": "conference"
+  },
+  {
+    "title": "SOAC: Supervised Off-Policy Actor-Critic for Recommender Systems",
+    "author": [
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
+    "year": "2023",
+    "note": "",
+    "pdf": "",
+    "type": "conference"
+  },
+  {
     "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
     "author": [
       "Mengyan Wang",
