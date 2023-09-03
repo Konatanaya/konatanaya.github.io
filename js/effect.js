@@ -85,22 +85,49 @@ var load_content_functions = [
             var str = "";
             for(var i=0; i<a_length;i++){
                 a = author_list[i];
-                if (i==a_length-1){
-                    if (a=="Shiqing Wu"){
-                        str += "<b>"+a+"</b>";
+                if (a=="Shiqing Wu"){
+                    temp = "<b>"+a+"</b>";
+                }
+                else{
+                    temp = a;
+                }
+
+                if (a_length == 1){
+                    str += temp;
+                }
+                else if (a_length == 2){
+                    if (i==0){
+                        str += temp;
                     }
                     else{
-                        str += a;
+                        str += " and "+temp;
                     }
                 }
-                else if (i<a_length-1){
-                    if (a=="Shiqing Wu"){
-                        str += "<b>"+a+"</b>, ";
+                else if (a_length>2){
+                    if (i<a_length-1){
+                        str += temp + ", ";
                     }
                     else{
-                        str += a+", ";
+                        str += "and "+temp;
                     }
                 }
+//
+//                if (i==a_length-1){
+//                    if (a=="Shiqing Wu"){
+//                        str += "<b>"+a+"</b>";
+//                    }
+//                    else{
+//                        str += a;
+//                    }
+//                }
+//                else if (i<a_length-1){
+//                    if (a=="Shiqing Wu"){
+//                        str += "<b>"+a+"</b>, ";
+//                    }
+//                    else{
+//                        str += a+", ";
+//                    }
+//                }
             }
             return str;
         }
