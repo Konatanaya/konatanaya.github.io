@@ -26,7 +26,7 @@
     "type": "conference"
   },
   {
-    "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
+    "title": "BHEISR: Nudging from Bias to Balance - Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations",
     "author": [
       "Mengyan Wang",
       "Yuxuan Hu",
@@ -80,11 +80,11 @@
       "Shiqing Wu",
       "Quan Bai"
     ],
-    "booktitle": "arXiv",
+    "booktitle": "Applied Intelligence",
     "year": "2023",
     "note": "",
-    "pdf": "https://arxiv.org/abs/2302.01443",
-    "type": "arxiv"
+    "pdf": "",
+    "type": "journal"
   },
   {
     "title": "ABEM: An Adaptive Agent-based Evolutionary Approach for Influence Maximization in Dynamic Social Networks",
