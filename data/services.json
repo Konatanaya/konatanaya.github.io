@@ -1,5 +1,47 @@
 [
   {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "World Wide Web",
+    "year": "December 2023"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 32nd ACM International Conference on Multimedia (MM)",
+    "year": "October 2024"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 29th International Conference on Database Systems for Advanced Applications (DASFAA)",
+    "year": "July 2024"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 33rd International Joint Conference on Artificial Intelligence (IJCAI)",
+    "year": "August 2024"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 28th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD)",
+    "year": "May 2024"
+  },
+  {
+    "type": "conference",
+    "role": "Web Chair",
+    "name": "the 11th International Conference on Behavioural and Social Computing (BESC)",
+    "year": "August 2024"
+  },
+  {
+    "type": "conference",
+    "role": "Reviewer",
+    "name": "the 17th ACM International Conference on Web Search and Data Mining (WSDM)",
+    "year": "March 2024"
+  },
+  {
     "type": "conference",
     "role": "Reviewer",
     "name": "the 23rd IEEE International Conference on Data Mining (ICDM)",
