@@ -1,5 +1,22 @@
 [
   {
+    "title": "Nudging Towards Responsible Recommendations: A Graph-Based Approach to Mitigate Belief Filter Bubbles",
+    "author": [
+      "Mengyan Wang",
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Zihan Yuan",
+      "Chenting Jiang"
+    ],
+    "booktitle": "IEEE Transactions on Artificial Intelligence",
+    "year": "2024",
+    "note": "",
+    "pdf": "",
+    "type": "journal"
+  },
+  {
     "title": "IE-Evo: Internal and External Evolution-Enhanced Temporal Knowledge Graph Forecasting",
     "author": [
       "Kangzheng Liu",
@@ -10,37 +27,21 @@
     "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
     "year": "2023",
     "note": "",
-    "pdf": "",
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/10415662",
     "type": "conference"
   },
   {
     "title": "SOAC: Supervised Off-Policy Actor-Critic for Recommender Systems",
     "author": [
       "Shiqing Wu",
-      "Guandong Xu"
+      "Guandong Xu",
+      "Xianzhi Wang"
     ],
     "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
     "year": "2023",
     "note": "",
-    "pdf": "",
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/10415826",
     "type": "conference"
-  },
-  {
-    "title": "BHEISR: Nudging from Bias to Balance - Promoting Belief Harmony by Eliminating Ideological Segregation in Knowledge-based Recommendations",
-    "author": [
-      "Mengyan Wang",
-      "Yuxuan Hu",
-      "Zihan Yuan",
-      "Chenting Jiang",
-      "Weihua Li",
-      "Shiqing Wu",
-      "Quan Bai"
-    ],
-    "booktitle": "arXiv",
-    "year": "2023",
-    "note": "",
-    "pdf": "https://arxiv.org/abs/2307.02797",
-    "type": "arxiv"
   },
   {
     "title": "BeECD: Belief-aware Echo Chamber Detection over Twitter Stream",
@@ -54,7 +55,7 @@
     "booktitle": "The 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
     "year": "2023",
     "note": "",
-    "pdf": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-981-99-7025-4_27",
     "type": "conference"
   },
   {
@@ -83,7 +84,7 @@
     "booktitle": "Applied Intelligence",
     "year": "2023",
     "note": "",
-    "pdf": "",
+    "pdf": "https://link.springer.com/article/10.1007/s10489-023-05075-5",
     "type": "journal"
   },
   {
