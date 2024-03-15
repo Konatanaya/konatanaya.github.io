@@ -1,5 +1,20 @@
 [
   {
+    "title": "Enhancing Spatiotemporal Prediction with Intra- and Inter-granularity Contrastive Learning",
+    "author": [
+      "Qilong Han",
+      "Shanshan Sui",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 29th International Conference on Database Systems for Advanced Applications (DASFAA)",
+    "year": "2024",
+    "note": "",
+    "pdf": "",
+    "type": "conference"
+  },
+  {
     "title": "Nudging Towards Responsible Recommendations: A Graph-Based Approach to Mitigate Belief Filter Bubbles",
     "author": [
       "Mengyan Wang",

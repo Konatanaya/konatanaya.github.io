@@ -1,5 +1,9 @@
 [
   {
+    "date": "15 March 2024",
+    "content": "Our paper \"Enhancing Spatiotemporal Prediction with Intra- and Inter-granularity Contrastive Learning\" is accepted by <a href=\"https://www.dasfaa2024.org\" target=\"_blank\" class=\"link-text-color\">DASFAA 2024</a>."
+  },
+  {
     "date": "28 February 2024",
     "content": "Our paper \"Nudging Towards Responsible Recommendations: A Graph-Based Approach to Mitigate Belief Filter Bubbles\" is accepted by <a href=\"https://cis.ieee.org/publications/ieee-transactions-on-artificial-intelligence\" target=\"_blank\" class=\"link-text-color\">IEEE Transactions on Artificial Intelligence</a>."
   },
