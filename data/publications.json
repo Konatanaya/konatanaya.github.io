@@ -1,5 +1,21 @@
 [
   {
+    "title": "TCGC: Temporal Collaboration-Aware Graph Co-Evolution Learning for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Xueyao Sun",
+      "Jun Zeng",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "ACM Transactions on Information Systems",
+    "year": "2024",
+    "note": "",
+    "pdf": "",
+    "type": "journal"
+  },
+  {
     "title": "Enhancing Spatiotemporal Prediction with Intra- and Inter-granularity Contrastive Learning",
     "author": [
       "Qilong Han",
