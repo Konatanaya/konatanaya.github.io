@@ -204,17 +204,23 @@ var load_content_functions = [
     },
     function(){//services
         function generateServiceItem(item){
-        var str = "<li><b>"+item.role+"</b>, "+item.name+", "+item.year+".</li>";
-        return str;
-    }
+            var str = "<li><b>"+item.role+"</b>, "+item.name+", "+item.year+".</li>";
+            return str;
+        }
+        function generateJournalServiceItem(item){
+            var str = "<li><b>"+item.role+"</b>, "+item.name+".</li>";
+            return str;
+        }
         $.getJSON("data/services.json", function (data) {
         $.each(data, function (index, item) {
-            item_code = generateServiceItem(item);
+
             switch(item.type){
                 case("journal"):
+                    item_code = generateJournalServiceItem(item);
                     $("#services-journal").append(item_code);
                     break;
                 case("conference"):
+                    item_code = generateServiceItem(item);
                     $("#services-conference").append(item_code);
                     break;
                 default:
