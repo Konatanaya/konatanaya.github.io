@@ -1,5 +1,77 @@
 [
   {
+    "title": "Enhancing Traffic Prediction via Spatial Multi-granularity Co-evolving Mechanism",
+    "author": [
+      "Shanshan Sui",
+      "Qilong Han",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780632",
+    "type": "conference"
+  },
+  {
+    "title": "Fairness-aware Mutual Information Multimodal Recommendation",
+    "author": [
+      "Dan Lu",
+      "Xu Chen",
+      "Rui Chen",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780480",
+    "type": "conference"
+  },
+  {
+    "title": "Cascading Hypergraph Convolution Networks for Mutli-Behavior Sequential Recommendation",
+    "author": [
+      "Dan Lu",
+      "Hao Zhang",
+      "Lijie Li",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780584",
+    "type": "conference"
+  },
+  {
+    "title": "Learning Influential Relationships for Implicit Influence Maximization in Unknown Networks",
+    "author": [
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780571/",
+    "type": "conference"
+  },
+  {
+    "title": "A novel complex network prediction method based on multi-granularity contrastive learning",
+    "author": [
+      "Shanshan Sui",
+      "Qilong Han",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "CCF Transactions on Pervasive Computing and Interaction",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://link.springer.com/article/10.1007/s42486-024-00174-9",
+    "type": "journal"
+  },
+  {
     "title": "TCGC: Temporal Collaboration-Aware Graph Co-Evolution Learning for Dynamic Recommendation",
     "author": [
       "Haoran Tang",
@@ -12,7 +84,7 @@
     "booktitle": "ACM Transactions on Information Systems",
     "year": "2024",
     "note": "",
-    "pdf": "",
+    "pdf": "https://dl.acm.org/doi/10.1145/3687470",
     "type": "journal"
   },
   {
@@ -44,7 +116,7 @@
     "booktitle": "IEEE Transactions on Artificial Intelligence",
     "year": "2024",
     "note": "",
-    "pdf": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10460339",
     "type": "journal"
   },
   {

@@ -68,7 +68,14 @@ var load_content_functions = [
                 var item = list[i];
                 var authors = getAuthors(item.author);
                 str += "<dd class='col-2 col-lg-1 text-center'>["+type+index+"]</dd><dd class='col-10 col-lg-11'>"+authors+". \""+item.title+
-                "\". <em>"+item.booktitle+"</em>, "+item.year+". "+checkLink(item.pdf)+"<i class='fas fa-file-pdf text-color'></i></a> ";
+                "\". <em>"+item.booktitle+"</em>, "+item.year+". "
+                if (item.pdf == ""){
+                    str +="</a>"
+                }
+                else{
+                    str += ""+checkLink(item.pdf)+"<i class='fas fa-file-pdf text-color'></i></a>";
+                }
+
             }
             return str;
         }
@@ -187,6 +194,12 @@ var load_content_functions = [
             $.each(data, function (index, item) {
                 item_code = generateTeachingItem(item);
                 switch(item.institution){
+                    case("UTS"):
+                        $("#teaching-UTS").append(item_code);
+                        break;
+                    case("TAFE"):
+                        $("#teaching-TAFE").append(item_code);
+                        break;
                     case("USQ"):
                         $("#teaching-USQ").append(item_code);
                         break;

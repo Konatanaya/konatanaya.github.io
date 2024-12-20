@@ -1,47 +1,57 @@
 [
   {
+    "institution": "UTS",
+    "course": "41181 Information Security and Management",
+    "time": "Spring 2024"
+  },
+  {
+    "institution": "TAFE",
+    "course": "AZ104/AZ204: Cloud Computing Foundations",
+    "time": "Autumn 2024"
+  },
+  {
     "institution": "USQ",
     "course": "CSC8003: Machine Learning",
-    "time": "Semester 3, 2022"
+    "time": "Summer 2022"
   },
   {
     "institution": "UTAS",
     "course": "KIT306/606: Data Analytics",
-    "time": "Semester 2, 2021"
+    "time": "Spring 2021"
   },
   {
     "institution": "UTAS",
     "course": "KIT405: Programming for Intelligent Web Services and Applications",
-    "time": "Semester 1, 2021"
+    "time": "Autumn 2021"
   },
   {
     "institution": "UTAS",
     "course": "KIT306/606: Data Analytics",
-    "time": "Semester 2, 2020"
+    "time": "Spring 2020"
   },
   {
     "institution": "AUT",
     "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
-    "time": "Semester 2, 2019"
+    "time": "Spring 2019"
   },
   {
     "institution": "AUT",
     "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
-    "time": "Semester 1, 2019"
+    "time": "Autumn 2019"
   },
   {
     "institution": "AUT",
     "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
-    "time": "Semester 2, 2018"
+    "time": "Spring 2018"
   },
   {
     "institution": "AUT",
     "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
-    "time": "Semester 1, 2018"
+    "time": "Autumn 2018"
   },
   {
     "institution": "AUT",
     "course": "COMP603: Program Design and Construction",
-    "time": "Semester 2, 2017"
+    "time": "Spring 2017"
   }
 ]
