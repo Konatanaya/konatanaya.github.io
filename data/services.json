@@ -1,5 +1,17 @@
 [
   {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "2025 International Joint Conference on Neural Networks (IJCNN)",
+    "year": "August 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 34th International Joint Conference on Artificial Intelligence (IJCAI)",
+    "year": "August 2025"
+  },
+  {
     "type": "journal",
     "role": "Reviewer",
     "name": "International Journal of Human-Computer Studies",
