@@ -1,5 +1,10 @@
 [
   {
+    "institution": "CUM",
+    "course": "Introduction to Web Design",
+    "time": "Spring 2025"
+  },
+  {
     "institution": "UTS",
     "course": "41181 Information Security and Management",
     "time": "Spring 2024"

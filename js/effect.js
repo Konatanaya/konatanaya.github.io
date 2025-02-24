@@ -194,6 +194,9 @@ var load_content_functions = [
             $.each(data, function (index, item) {
                 item_code = generateTeachingItem(item);
                 switch(item.institution){
+                    case("CMU"):
+                        $("#teaching-CMU").append(item_code);
+                        break;
                     case("UTS"):
                         $("#teaching-UTS").append(item_code);
                         break;

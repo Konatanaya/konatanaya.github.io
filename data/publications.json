@@ -1,5 +1,21 @@
 [
   {
+    "title": "Model-agnostic Dual-side Online Fairness Learning for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Zhihong Cui",
+      "Yicong Li",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10897929/",
+    "type": "journal"
+  },
+  {
     "title": "Enhancing Traffic Prediction via Spatial Multi-granularity Co-evolving Mechanism",
     "author": [
       "Shanshan Sui",
