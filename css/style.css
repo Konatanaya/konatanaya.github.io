@@ -24,6 +24,10 @@ html,body{
 	font-family: 'Poppins', sans-serif;
 }
 
+.ccf-color{
+    background:#CCD8FF;
+    color:white;
+}
 .text-color{
     color:#1E3685;
 }

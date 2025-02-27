@@ -13,6 +13,10 @@
     "year": "2025",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10897929/",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -28,6 +32,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10780632",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -43,6 +51,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10780480",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -58,6 +70,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10780584",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -70,6 +86,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10780571/",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -85,6 +105,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://link.springer.com/article/10.1007/s42486-024-00174-9",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "Q3",
     "type": "journal"
   },
   {
@@ -101,6 +125,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://dl.acm.org/doi/10.1145/3687470",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -116,6 +144,10 @@
     "year": "2024",
     "note": "",
     "pdf": "",
+    "ccf": "B",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -133,6 +165,10 @@
     "year": "2024",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/10460339",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "",
     "type": "journal"
   },
   {
@@ -147,6 +183,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/abstract/document/10415662",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -160,6 +200,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/abstract/document/10415826",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -175,6 +219,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://link.springer.com/chapter/10.1007/978-981-99-7025-4_27",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -189,6 +237,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://dl.acm.org/doi/abs/10.1145/3539618.3591674",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -204,6 +256,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://link.springer.com/article/10.1007/s10489-023-05075-5",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "Q2",
     "type": "journal"
   },
   {
@@ -220,6 +276,10 @@
     "year": "2023",
     "note": "",
     "pdf": "https://www.sciencedirect.com/science/article/pii/S1568494623000807",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -234,6 +294,10 @@
     "year": "2022",
     "note": "",
     "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025522015663",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -249,6 +313,10 @@
     "year": "2022",
     "note": "",
     "pdf": "https://www.sciencedirect.com/science/article/pii/S2452414X22000930",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -262,6 +330,10 @@
     "year": "2022",
     "note": "",
     "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0950705122011534",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
     "type": "journal"
   },
   {
@@ -278,6 +350,10 @@
     "year": "2022",
     "note": "",
     "pdf": "https://www.ijcai.org/proceedings/2022/705",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -292,6 +368,10 @@
     "year": "2021",
     "note": "",
     "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-90888-1_41",
+    "ccf": "C",
+    "core": "A",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -307,6 +387,10 @@
     "year": "2021",
     "note": "",
     "pdf": "https://ieeexplore.ieee.org/document/9520810/",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "",
     "type": "journal"
   },
   {
@@ -320,6 +404,10 @@
     "year": "2021",
     "note": "",
     "pdf": "http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1701.pdf",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -332,6 +420,10 @@
     "year": "2019",
     "note": "",
     "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_52",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -345,6 +437,10 @@
     "year": "2019",
     "note": "",
     "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_51",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
     "type": "conference"
   },
   {
@@ -358,6 +454,10 @@
     "year": "2018",
     "note": "",
     "pdf": "https://link.springer.com/article/10.1007/s11518-018-5368-6",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "",
     "type": "journal"
   }
 ]

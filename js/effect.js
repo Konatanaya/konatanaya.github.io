@@ -69,12 +69,33 @@ var load_content_functions = [
                 var authors = getAuthors(item.author);
                 str += "<dd class='col-2 col-lg-1 text-center'>["+type+index+"]</dd><dd class='col-10 col-lg-11'>"+authors+". \""+item.title+
                 "\". <em>"+item.booktitle+"</em>, "+item.year+". "
+
+
+                if (item.jcr != ""){
+                    str += '&nbsp<img alt="Static Badge" src="https://img.shields.io/badge/JCR--'+item.jcr+'-green">'
+                }
+
+                if (item.sjr != ""){
+                    str += '&nbsp<img alt="Static Badge" src="https://img.shields.io/badge/SJR--'+item.sjr+'-red">'
+                }
+
+                if (item.core != ""){
+                    str += '&nbsp<img alt="Static Badge" src="https://img.shields.io/badge/CORE--'+item.core+'-yellow">'
+                }
+
+                if (item.ccf != ""){
+                    str += '&nbsp<img class="inline-block" alt="Static Badge" src="https://img.shields.io/badge/CCF--'+item.ccf+'-blue">'
+                }
+
+
                 if (item.pdf == ""){
                     str +="</a>"
                 }
                 else{
-                    str += ""+checkLink(item.pdf)+"<i class='fas fa-file-pdf text-color'></i></a>";
+                    str += "&nbsp"+checkLink(item.pdf)+"<i class='fas fa-file-pdf text-color'></i></a>";
                 }
+                str += "</dd>"
+
 
             }
             return str;
