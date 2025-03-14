@@ -2,6 +2,12 @@
   {
     "type": "conference",
     "role": "PC Member",
+    "name": "the 33rd ACM International Conference on Multimedia (MM)",
+    "year": "October 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
     "name": "the 28th European Conference on Artificial Intelligence (ECAI)",
     "year": "October 2025"
   },
