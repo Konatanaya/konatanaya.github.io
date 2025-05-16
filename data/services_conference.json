@@ -1,6 +1,18 @@
 [
   {
     "type": "conference",
+    "role": "Workshop Chair",
+    "name": "2025 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
+    "year": "November 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 22nd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "November 2025"
+  },
+  {
+    "type": "conference",
     "role": "PC Member",
     "name": "the 33rd ACM International Conference on Multimedia (MM)",
     "year": "October 2025"
@@ -9,6 +21,12 @@
     "type": "conference",
     "role": "PC Member",
     "name": "the 28th European Conference on Artificial Intelligence (ECAI)",
+    "year": "October 2025"
+  },
+    {
+    "type": "conference",
+    "role": "Web Chair",
+    "name": "the 12th International Conference on Behavioural and Social Computing (BESC)",
     "year": "October 2025"
   },
   {
@@ -28,54 +46,6 @@
     "role": "PC Member",
     "name": "the 34th International Joint Conference on Artificial Intelligence (IJCAI)",
     "year": "August 2025"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "International Journal of Human-Computer Studies",
-    "year": "October 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Engineering Applications of Artificial Intelligence",
-    "year": "October 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Expert Systems With Applications",
-    "year": "October 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Natural Language Processing Journal",
-    "year": "September 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Knowledge-based Systems",
-    "year": "May 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Neurocomputing",
-    "year": "April 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Applied Intelligence",
-    "year": "March 2024"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "World Wide Web",
-    "year": "December 2023"
   },
   {
     "type": "conference",
@@ -180,12 +150,6 @@
     "year": "September 2023"
   },
   {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "IEEE Transactions on Network Science and Engineering",
-    "year": "July 2023"
-  },
-  {
     "type": "conference",
     "role": "Workshop Chair",
     "name": "2023 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
@@ -203,12 +167,6 @@
     "role": "PC Member",
     "name": "the 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
     "year": "November 2023"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Human-Centric Intelligent Systems",
-    "year": "February 2023"
   },
   {
     "type": "conference",
@@ -259,18 +217,6 @@
     "year": "November 2022"
   },
   {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Information Processing & Management",
-    "year": "July 2022"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "The Computer Journal",
-    "year": "May 2022"
-  },
-  {
     "type": "conference",
     "role": "Publicity Chair",
     "name": "2022 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
@@ -287,12 +233,6 @@
     "role": "Webmaster and Reviewer",
     "name": "2020 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "January 2021"
-  },
-  {
-    "type": "journal",
-    "role": "Reviewer",
-    "name": "Computers in Human Behavior",
-    "year": "September 2019"
   },
   {
     "type": "conference",

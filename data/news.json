@@ -1,5 +1,13 @@
 [
   {
+    "date": "09 May 2025",
+    "content": "Our paper \"DyBooster: Leveraging Large Language Model as Booster for Dynamic Recommendation\" is accepted by <a href=\"https://www.sciencedirect.com/journal/expert-systems-with-applications\", target=\"_blank\" class=\"link-text-color\">Expert Systems with Applications (ESWA)</a>."
+  },
+  {
+    "date": "07 May 2025",
+    "content": "We will organize <a href=\"https://pkawwebsite.github.io/2025/\" target=\"_blank\" class=\"link-text-color\">2025 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)</a> at PRICAI 2025. Submissions are welcome!"
+  },
+  {
     "date": "25 February 2025",
     "content": "Our paper \"Model-agnostic Dual-side Online Fairness Learning for Dynamic Recommendation\" is accepted by <a href=\"https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=69\", target=\"_blank\" class=\"link-text-color\">IEEE Transactions on Knowledge and Data Engineering (TKDE)</a>."
   },

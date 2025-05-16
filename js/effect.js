@@ -245,26 +245,21 @@ var load_content_functions = [
             return str;
         }
         function generateJournalServiceItem(item){
-            var str = "<li><b>"+item.role+"</b>, "+item.name+".</li>";
+            var str = "<li><b>"+item.role+"</b>, "+item.name+", "+item.publisher+".</li>";
             return str;
         }
-        $.getJSON("data/services.json", function (data) {
-        $.each(data, function (index, item) {
-
-            switch(item.type){
-                case("journal"):
-                    item_code = generateJournalServiceItem(item);
-                    $("#services-journal").append(item_code);
-                    break;
-                case("conference"):
-                    item_code = generateServiceItem(item);
-                    $("#services-conference").append(item_code);
-                    break;
-                default:
-                    break;
-            }
+        $.getJSON("data/services_journal.json", function (data) {
+            $.each(data, function (index, item) {
+                item_code = generateJournalServiceItem(item);
+                $("#services-journal").append(item_code);
+            });
         });
-    });
+        $.getJSON("data/services_conference.json", function (data) {
+            $.each(data, function (index, item) {
+                item_code = generateServiceItem(item);
+                $("#services-conference").append(item_code);
+            });
+        });
     },
     function(){//awards
         function generateAwardsItem(item){

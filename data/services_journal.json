@@ -1,0 +1,116 @@
+[
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Big Data Research",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Journal of Computational Science",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Online Social Networks and Media",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Applied Soft Computing",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Behaviour & Information Technology",
+    "publisher": "Taylor and Francis"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Big Data Mining and Analytics",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Fuzzy Systems",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "International Journal of Human-Computer Studies",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Engineering Applications of Artificial Intelligence",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Expert Systems With Applications",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Natural Language Processing Journal",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Knowledge-based Systems",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Neurocomputing",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Applied Intelligence",
+    "publisher": "Springer"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "World Wide Web",
+    "publisher": "Springer"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Network Science and Engineering",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Information Processing & Management",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "The Computer Journal",
+    "publisher": "Oxford University Press"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Computers in Human Behavior",
+    "publisher": "Elsevier"
+  }
+]

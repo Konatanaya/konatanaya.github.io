@@ -1,5 +1,25 @@
 [
   {
+    "title": "DyBooster: Leveraging Large Language Model as Booster for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Xueyao Sun",
+      "Shiqing Wu",
+      "Zhihong Cui",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "Expert Systems with Applications",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "Model-agnostic Dual-side Online Fairness Learning for Dynamic Recommendation",
     "author": [
       "Haoran Tang",
