@@ -1,5 +1,25 @@
 [
   {
+    "title": "Balancing Information Perception with Yin-Yang: Agent-Based Adaptive Information Neutrality Model for Recommendation Systems",
+    "author": [
+      "Mengyan Wang",
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Verica Rupar"
+    ],
+    "booktitle": "IEEE Transactions on Computational Social Systems",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "DyBooster: Leveraging Large Language Model as Booster for Dynamic Recommendation",
     "author": [
       "Haoran Tang",
@@ -12,7 +32,7 @@
     "booktitle": "Expert Systems with Applications",
     "year": "2025",
     "note": "",
-    "pdf": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425017014?fr=RR-2&ref=pdf_download&rr=9433fc4d7c846807",
     "ccf": "C",
     "core": "",
     "sjr": "Q1",
