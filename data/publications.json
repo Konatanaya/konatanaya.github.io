@@ -1,5 +1,42 @@
 [
   {
+    "title": "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation",
+    "author": [
+      "Shouxing Ma",
+      "Yawen Zeng",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 33rd ACM International Conference on Multimedia (MM)",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Causal Cascading Convolution Networks for Multi-behavior Sequential Recommendation",
+    "author": [
+      "Dan Lu",
+      "Shiqing Wu",
+      "Hao Zhang",
+      "Guandong Xu",
+      "Qilong Han"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "Balancing Information Perception with Yin-Yang: Agent-Based Adaptive Information Neutrality Model for Recommendation Systems",
     "author": [
       "Mengyan Wang",

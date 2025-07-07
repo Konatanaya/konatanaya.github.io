@@ -1,6 +1,24 @@
 [
   {
     "type": "journal",
+    "role": "Editorial Board Member",
+    "name": "Information Processing & Management",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Information Fusion",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Consumer Electronics",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
     "role": "Reviewer",
     "name": "Big Data Research",
     "publisher": "Elsevier"

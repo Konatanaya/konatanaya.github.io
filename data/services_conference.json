@@ -1,6 +1,12 @@
 [
   {
     "type": "conference",
+    "role": "PC Member",
+    "name": "the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    "year": "August 2026"
+  },
+  {
+    "type": "conference",
     "role": "Workshop Chair",
     "name": "2025 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
     "year": "November 2025"
