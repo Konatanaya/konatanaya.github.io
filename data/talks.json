@@ -1,4 +1,22 @@
 [
+   {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"Modeling Evolving User Preferences in Dynamic Recommender Systems\" at Institute of Systems Science, Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
+    "time": "July 2025"
+  },
+  {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"itigating the ``Filter Bubble'' Effect in Modern Recommender Systems\" at Institute of Systems Science, Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
+    "time": "July 2025"
+  },
+   {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"Generative Artificial Intelligence: A Case Study of ChatGPT\" at Auckland University of Technology (online)",
+    "time": "Febuary 2023"
+  },
   {
     "category": "IT",
     "type": "Invited Talk",
