@@ -1,5 +1,25 @@
 [
   {
+    "title": "Graph of Now and Past Network: A Novel Approach for Dynamic Temporal Graphs Learning",
+    "author": [
+      "Naimeng Yao",
+      "Li Xiao",
+      "Weihua Li",
+      "Xiaodan Wang",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "The 22nd Pacific Rim International Conference on Artificial Intelligence (PRICAI) ",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
     "title": "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation",
     "author": [
       "Shouxing Ma",

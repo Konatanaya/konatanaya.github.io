@@ -8,6 +8,18 @@
   {
     "type": "journal",
     "role": "Reviewer",
+    "name": "Information Sciences",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Computer Networks",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
     "name": "Information Fusion",
     "publisher": "Elsevier"
   },

@@ -2,6 +2,18 @@
   {
     "type": "conference",
     "role": "PC Member",
+    "name": "the 40th AAAI Conference on Artificial Intelligence (AAAI)",
+    "year": "January 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 24th International Symposium on Knowledge and Systems Sciences (KSS)",
+    "year": "November 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
     "name": "the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "year": "August 2026"
   },
@@ -52,6 +64,12 @@
     "role": "PC Member",
     "name": "the 34th International Joint Conference on Artificial Intelligence (IJCAI)",
     "year": "August 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 23rd International Symposium on Knowledge and Systems Sciences (KSS)",
+    "year": "November 2024"
   },
   {
     "type": "conference",
