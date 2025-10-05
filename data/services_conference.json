@@ -8,6 +8,12 @@
   {
     "type": "conference",
     "role": "PC Member",
+    "name": "the 9th IEEE International Conference on Agentic AI (ICA)",
+    "year": "December 2025"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
     "name": "the 24th International Symposium on Knowledge and Systems Sciences (KSS)",
     "year": "November 2025"
   },

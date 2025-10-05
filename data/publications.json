@@ -1,5 +1,25 @@
 [
   {
+    "title": "BotDMM: Dual-channel Multi-Modal Learning for LLM-driven Bot Detection on Social Media",
+    "author": [
+      "Jinglong Duan",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Minh Nguyen",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "Information Fusion",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S1566253525008206",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "Graph of Now and Past Network: A Novel Approach for Dynamic Temporal Graphs Learning",
     "author": [
       "Naimeng Yao",
@@ -49,7 +69,7 @@
     "booktitle": "Information Sciences",
     "year": "2025",
     "note": "",
-    "pdf": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025525006164",
     "ccf": "B",
     "core": "",
     "sjr": "Q1",
