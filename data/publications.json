@@ -1,5 +1,101 @@
 [
   {
+    "title": "Diagnosing and Mitigating Mid-Sequence Degradation in Recommender Systems",
+    "author": [
+      "Linjiang Guo",
+      "Nitin Bishit",
+      "Shiqing Wu",
+      "Huan Huo",
+      "Xianzhi Wang",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 49th International ACM SIGIR Conference\non Research and Development in Information Retrieval (SIGIR)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "TriCon-Fair: Triplet Contrastive Learning for Mitigating Social Bias in Pre-trained Language Models",
+    "author": [
+      "Chong Lyu",
+      "Lin Li",
+      "Shiqing Wu",
+      "Jingling Yuan"
+    ],
+    "booktitle": "2026 IEEE International Conference on Acoustics, Speech and\nSignal Processing (ICASSP)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "DF-CDR: A Unified Framework for Dual Fairness in Cross-Domain Recommendation Systems",
+    "author": [
+      "Ziyu Li",
+      "Jinglong Duan",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "The 9th IEEE International Conference\non Agentic AI (IEEE ICA)",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Dual-Channel Time-Aware Graph\nAttention Network for Session-Based Recommendation",
+    "author": [
+      "Linjiang Guo",
+      "Shiqing Wu",
+      "Dan Lu",
+      "Longxiang Gao",
+      "Guandong Xu"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Multi-modal Dual Attention Graph Contrastive Learning for Recommendation",
+    "author": [
+      "Shouxing Ma",
+      "Shiqing Wu",
+      "Yawen Zeng",
+      "Kaize Shi",
+      "Guandong Xu"
+    ],
+    "booktitle": "Knowledge-Based Systems",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "BotDMM: Dual-channel Multi-Modal Learning for LLM-driven Bot Detection on Social Media",
     "author": [
       "Jinglong Duan",

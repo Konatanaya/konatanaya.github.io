@@ -1,5 +1,23 @@
 [
-   {
+  {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"Mitigating the ``Filter Bubble'' Effect in Modern Recommender Systems\" in the School of Computer Science and Technology, at the University of Science and Technology of China",
+    "time": "December 2025"
+  },
+  {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"Mitigating the ``Filter Bubble'' Effect in Modern Recommender Systems\" in the School of Computer Science and Artificial Intelligence, at Wuhan University of Technology",
+    "time": "December 2025"
+  },
+  {
+    "category": "IT",
+    "type": "Invited Talk",
+    "description": "titled \"Modeling Evolving User Preferences in Dynamic Recommender Systems\" at Zhejiang Normal University",
+    "time": "September 2025"
+  },
+  {
     "category": "IT",
     "type": "Invited Talk",
     "description": "titled \"Modeling Evolving User Preferences in Dynamic Recommender Systems\" at Institute of Systems Science, Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
@@ -8,14 +26,8 @@
   {
     "category": "IT",
     "type": "Invited Talk",
-    "description": "titled \"itigating the ``Filter Bubble'' Effect in Modern Recommender Systems\" at Institute of Systems Science, Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
+    "description": "titled \"Mitigating the ``Filter Bubble'' Effect in Modern Recommender Systems\" at Institute of Systems Science, Academy of Mathematics and Systems Science, Chinese Academy of Sciences",
     "time": "July 2025"
-  },
-   {
-    "category": "IT",
-    "type": "Invited Talk",
-    "description": "titled \"Generative Artificial Intelligence: A Case Study of ChatGPT\" at Auckland University of Technology (online)",
-    "time": "Febuary 2023"
   },
   {
     "category": "IT",

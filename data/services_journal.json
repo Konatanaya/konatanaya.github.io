@@ -7,6 +7,42 @@
   },
   {
     "type": "journal",
+    "role": "Guest Editor",
+    "name": "EURASIP Journal on Image and Video Processing",
+    "publisher": "Springer"
+  },
+  {
+    "type": "journal",
+    "role": "Guest Editor",
+    "name": "Electronics",
+    "publisher": "MDPI"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Human-Machine Systems",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "Pattern Recognition",
+    "publisher": "Elsevier"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "IEEE Transactions on Dependable and Secure Computing",
+    "publisher": "IEEE"
+  },
+  {
+    "type": "journal",
+    "role": "Reviewer",
+    "name": "ACM Transactions on Social Computing",
+    "publisher": "ACM"
+  },
+  {
+    "type": "journal",
     "role": "Reviewer",
     "name": "Information Sciences",
     "publisher": "Elsevier"

@@ -1,6 +1,48 @@
 [
   {
     "type": "conference",
+    "role": "Tutorial Chair",
+    "name": "the 23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "November 2026"
+  },
+  {
+    "type": "conference",
+    "role": "Web Chair",
+    "name": "the 13th International Conference on Behavioural and Social Computing (BESC)",
+    "year": "October 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "July 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 34th ACM International Conference on Multimedia (MM)",
+    "year": "November 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "2026 International Joint Conference on Neural Networks (IJCNN)",
+    "year": "August 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the 35th International Joint Conference on Artificial Intelligence (IJCAI-ECAI)",
+    "year": "August 2026"
+  },
+  {
+    "type": "conference",
+    "role": "PC Member",
+    "name": "the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR)",
+    "year": "June 2026"
+  },
+  {
+    "type": "conference",
     "role": "PC Member",
     "name": "the 40th AAAI Conference on Artificial Intelligence (AAAI)",
     "year": "January 2026"
@@ -47,7 +89,7 @@
     "name": "the 28th European Conference on Artificial Intelligence (ECAI)",
     "year": "October 2025"
   },
-    {
+  {
     "type": "conference",
     "role": "Web Chair",
     "name": "the 12th International Conference on Behavioural and Social Computing (BESC)",

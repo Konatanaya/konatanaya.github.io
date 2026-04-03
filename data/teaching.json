@@ -1,7 +1,17 @@
 [
   {
     "institution": "CUM",
-    "course": "BITMZ203: Introduction to Web Design",
+    "course": "BITMZ033: Machine Learning",
+    "time": "Spring 2026"
+  },
+  {
+    "institution": "CUM",
+    "course": "BITCF017: Machine Learning",
+    "time": "Autumn 2025"
+  },
+  {
+    "institution": "CUM",
+    "course": "BITMZ023: Introduction to Web Design",
     "time": "Spring 2025"
   },
   {
