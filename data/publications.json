@@ -1,0 +1,874 @@
+[
+  {
+    "title": "SPRL: Scalable Policy-based Reinforcement Learning for Dynamic Influence Maximization",
+    "author": [
+      "Wenbin Shen",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai"
+    ],
+    "booktitle": "The 23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "FERL-RS: An Adaptive Reinforcement Learning Framework for Mitigating Filter Bubbles in Recommendation Systems",
+    "author": [
+      "Lan Zhang",
+      "Yuxuan Hu",
+      "Weihua Li",
+      "Quan Bai",
+      "Shiqing Wu",
+      "Wen Zhang"
+    ],
+    "booktitle": "The 23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Popularity-Residualized LLM-Enhanced Cross-Domain Recommendation",
+    "author": [
+      "Ziyu Li",
+      "Jinglong Duan",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "The 23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "HCES: A Hull Connectivity State Abstraction for Hierarchical Reinforcement Learning in Flock Herding",
+    "author": [
+      "Hai Huang",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "The 23rd Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "BCP: A Lightweight Boundary-Controlled Framework for Online Sign Language Recognition and Translation",
+    "author": [
+      "Xiao Ma",
+      "Lin Li",
+      "Shiqing Wu",
+      "Wang Gao",
+      "Chuanbo Liu",
+      "Jianquan Liu"
+    ],
+    "booktitle": "The 15th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Ideological Isolation in Online Social Networks: A Survey of Computational Definitions, Metrics, and Mitigation",
+    "author": [
+      "Xiaodan Wang",
+      "Yanbin Liu",
+      "Shiqing Wu",
+      "Ziying Zhao",
+      "Yuxuan Hu",
+      "Weihua Li",
+      "Quan Bai"
+    ],
+    "booktitle": "Neurocomputing",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Cross-Domain Molecular Relational Learning: Leveraging Chemical Structure-Activity Analysis",
+    "author": [
+      "Peiliang Zhang",
+      "Jingling Yuan",
+      "Shiqing Wu",
+      "Mengqing Hu",
+      "Chao Che",
+      "Yongjun Zhu",
+      "Lin Li"
+    ],
+    "booktitle": "The 32nd SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "The Trust Paradox in LLM-Based Multi-Agent Systems: When Collaboration Becomes a Security Vulnerability",
+    "author": [
+      "Zijie Xu",
+      "Minfeng Qi",
+      "Shiqing Wu",
+      "Lefeng Zhang",
+      "Qiwen Wei",
+      "Han He",
+      "Ningran Li"
+    ],
+    "booktitle": "IEEE Transactions on Computational Social Systems",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Beyond Observations: Improving Multi-hop Question Generation via Bridging Dependency-Enhanced Counterfactual Supporting",
+    "author": [
+      "Kaixi Hu",
+      "Jinyi Wan",
+      "Junping Liu",
+      "Xinrong Hu",
+      "Rui Yan",
+      "Shiqing Wu",
+      "Lin Li"
+    ],
+    "booktitle": "IEEE Transactions on Computational Social Systems",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "A Survey of Multimodal Recommender Systems: Methods, Challenges, and Future Directions",
+    "author": [
+      "Ziyu Li",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "International Journal of Multimedia Information Retrieval",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q2",
+    "type": "journal"
+  },
+  {
+    "title": "Diagnosing and Mitigating Mid-Sequence Degradation in Recommender Systems",
+    "author": [
+      "Linjiang Guo",
+      "Nitin Bishit",
+      "Shiqing Wu",
+      "Huan Huo",
+      "Xianzhi Wang",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "TriCon-Fair: Triplet Contrastive Learning for Mitigating Social Bias in Pre-trained Language Models",
+    "author": [
+      "Chong Lyu",
+      "Lin Li",
+      "Shiqing Wu",
+      "Jingling Yuan"
+    ],
+    "booktitle": "2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "DF-CDR: A Unified Framework for Dual Fairness in Cross-Domain Recommendation Systems",
+    "author": [
+      "Ziyu Li",
+      "Jinglong Duan",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "The 9th IEEE International Conference on Agentic AI (IEEE ICA)",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Dual-Channel Time-Aware Graph Attention Network for Session-Based Recommendation",
+    "author": [
+      "Linjiang Guo",
+      "Shiqing Wu",
+      "Dan Lu",
+      "Longxiang Gao",
+      "Guandong Xu"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Multi-modal Dual Attention Graph Contrastive Learning for Recommendation",
+    "author": [
+      "Shouxing Ma",
+      "Shiqing Wu",
+      "Yawen Zeng",
+      "Kaize Shi",
+      "Guandong Xu"
+    ],
+    "booktitle": "Knowledge-Based Systems",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "BotDMM: Dual-channel Multi-Modal Learning for LLM-driven Bot Detection on Social Media",
+    "author": [
+      "Jinglong Duan",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Minh Nguyen",
+      "Jianhua Jiang"
+    ],
+    "booktitle": "Information Fusion",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S1566253525008206",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Graph of Now and Past Network: A Novel Approach for Dynamic Temporal Graphs Learning",
+    "author": [
+      "Naimeng Yao",
+      "Li Xiao",
+      "Weihua Li",
+      "Xiaodan Wang",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "The 22nd Pacific Rim International Conference on Artificial Intelligence (PRICAI) ",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Refining Contrastive Learning and Homography Relations for Multi-Modal Recommendation",
+    "author": [
+      "Shouxing Ma",
+      "Yawen Zeng",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 33rd ACM International Conference on Multimedia (MM)",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Causal Cascading Convolution Networks for Multi-behavior Sequential Recommendation",
+    "author": [
+      "Dan Lu",
+      "Shiqing Wu",
+      "Hao Zhang",
+      "Guandong Xu",
+      "Qilong Han"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025525006164",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Balancing Information Perception with Yin-Yang: Agent-Based Adaptive Information Neutrality Model for Recommendation Systems",
+    "author": [
+      "Mengyan Wang",
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Verica Rupar"
+    ],
+    "booktitle": "IEEE Transactions on Computational Social Systems",
+    "year": "2025",
+    "note": "",
+    "pdf": "",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "DyBooster: Leveraging Large Language Model as Booster for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Xueyao Sun",
+      "Shiqing Wu",
+      "Zhihong Cui",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "Expert Systems with Applications",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0957417425017014?fr=RR-2&ref=pdf_download&rr=9433fc4d7c846807",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Model-agnostic Dual-side Online Fairness Learning for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Zhihong Cui",
+      "Yicong Li",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": "2025",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10897929/",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Enhancing Traffic Prediction via Spatial Multi-granularity Co-evolving Mechanism",
+    "author": [
+      "Shanshan Sui",
+      "Qilong Han",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780632",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Fairness-aware Mutual Information Multimodal Recommendation",
+    "author": [
+      "Dan Lu",
+      "Xu Chen",
+      "Rui Chen",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780480",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Cascading Hypergraph Convolution Networks for Mutli-Behavior Sequential Recommendation",
+    "author": [
+      "Dan Lu",
+      "Hao Zhang",
+      "Lijie Li",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780584",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Learning Influential Relationships for Implicit Influence Maximization in Unknown Networks",
+    "author": [
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 11th International Conference on Behavior, Economic and Social Computing (BESC)",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10780571/",
+    "ccf": "",
+    "core": "",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "A novel complex network prediction method based on multi-granularity contrastive learning",
+    "author": [
+      "Shanshan Sui",
+      "Qilong Han",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "CCF Transactions on Pervasive Computing and Interaction",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://link.springer.com/article/10.1007/s42486-024-00174-9",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "Q3",
+    "type": "journal"
+  },
+  {
+    "title": "TCGC: Temporal Collaboration-Aware Graph Co-Evolution Learning for Dynamic Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Xueyao Sun",
+      "Jun Zeng",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "ACM Transactions on Information Systems",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://dl.acm.org/doi/10.1145/3687470",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Enhancing Spatiotemporal Prediction with Intra- and Inter-granularity Contrastive Learning",
+    "author": [
+      "Qilong Han",
+      "Shanshan Sui",
+      "Dan Lu",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "The 29th International Conference on Database Systems for Advanced Applications (DASFAA)",
+    "year": "2024",
+    "note": "",
+    "pdf": "",
+    "ccf": "B",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Nudging Towards Responsible Recommendations: A Graph-Based Approach to Mitigate Belief Filter Bubbles",
+    "author": [
+      "Mengyan Wang",
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai",
+      "Zihan Yuan",
+      "Chenting Jiang"
+    ],
+    "booktitle": "IEEE Transactions on Artificial Intelligence",
+    "year": "2024",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/10460339",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "",
+    "type": "journal"
+  },
+  {
+    "title": "IE-Evo: Internal and External Evolution-Enhanced Temporal Knowledge Graph Forecasting",
+    "author": [
+      "Kangzheng Liu",
+      "Feng Zhao",
+      "Guandong Xu",
+      "Shiqing Wu"
+    ],
+    "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/10415662",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "SOAC: Supervised Off-Policy Actor-Critic for Recommender Systems",
+    "author": [
+      "Shiqing Wu",
+      "Guandong Xu",
+      "Xianzhi Wang"
+    ],
+    "booktitle": "The 23rd IEEE International Conference on Data Mining (ICDM)",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/abstract/document/10415826",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "BeECD: Belief-aware Echo Chamber Detection over Twitter Stream",
+    "author": [
+      "Guan Wang",
+      "Weihua Li",
+      "Shiqing Wu",
+      "Quan Bai",
+      "Edmund Lai"
+    ],
+    "booktitle": "The 20th Pacific Rim International Conference on Artificial Intelligence (PRICAI)",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-981-99-7025-4_27",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Dynamic Graph Evolution Learning for Recommendation",
+    "author": [
+      "Haoran Tang",
+      "Shiqing Wu",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://dl.acm.org/doi/abs/10.1145/3539618.3591674",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "DOR: A Novel Dual-Observation-Based Approach for News Recommendation Systems",
+    "author": [
+      "Mengyan Wang",
+      "Weihua Li",
+      "Jingli Shi",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "Applied Intelligence",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://link.springer.com/article/10.1007/s10489-023-05075-5",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "Q2",
+    "type": "journal"
+  },
+  {
+    "title": "ABEM: An Adaptive Agent-based Evolutionary Approach for Influence Maximization in Dynamic Social Networks",
+    "author": [
+      "Weihua Li",
+      "Yuxuan Hu",
+      "Chenting Jiang",
+      "Shiqing Wu",
+      "Quan Bai",
+      "Edmund Lai"
+    ],
+    "booktitle": "Applied Soft Computing",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S1568494623000807",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Identifying Influential Users in Unknown Social Networks for Adaptive Incentive Allocation Under Budget Restriction",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      "Hao Shen",
+      "Quan Bai"
+    ],
+    "booktitle": "Information Sciences",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0020025522015663",
+    "ccf": "B",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "Game Theory Based Compatible Incentive Mechanism Design for Non-Cryptocurrency Blockchain Systems",
+    "author": [
+      "Xiang Li",
+      "Qing Liu",
+      "Shiqing Wu",
+      "Zehong Cao",
+      "Quan Bai"
+    ],
+    "booktitle": "Journal of Industrial Information Integration",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/pii/S2452414X22000930",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "GAC: A Deep Reinforcement Learning Model Toward User Incentivization in Unknown Social Networks",
+    "author": [
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai"
+    ],
+    "booktitle": "Knowledge-Based Systems",
+    "year": "2023",
+    "note": "",
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0950705122011534",
+    "ccf": "C",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
+    "title": "AI Facilitated Isolations? The Impact of Recommendation-based Influence Diffusion in Human Society",
+    "author": [
+      "Yuxuan Hu",
+      "Shiqing Wu",
+      "Chenting Jiang",
+      "Weihua Li",
+      "Quan Bai",
+      "Erin Roehrer"
+    ],
+    "booktitle": "The 31st International Joint Conference on Artificial Intelligence (IJCAI)",
+    "year": "2022",
+    "note": "",
+    "pdf": "https://www.ijcai.org/proceedings/2022/705",
+    "ccf": "A",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "OMT: An Operate-based Approach for Modelling Multi-topic Influence Diffusion in Online Social Networks",
+    "author": [
+      "Chenting Jiang",
+      "Weihua Li",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "The 22nd International Conference on Web Information Systems Engineering (WISE)",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-90888-1_41",
+    "ccf": "C",
+    "core": "A",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "An Operator-based Approach for Modeling Influence Diffusion in Complex Social Networks",
+    "author": [
+      "Chenting Jiang",
+      "Anthony D'Arienzo",
+      "Weihua Li",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "Journal of Social Computing",
+    "year": "2021",
+    "note": "",
+    "pdf": "https://ieeexplore.ieee.org/document/9520810/",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "",
+    "type": "journal"
+  },
+  {
+    "title": "Learning Policies for Effective Incentive Allocation in Unknown Social Networks",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      "Weihua Li"
+    ],
+    "booktitle": "The 20th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)",
+    "year": "2021",
+    "note": "",
+    "pdf": "http://www.ifaamas.org/Proceedings/aamas2021/pdfs/p1701.pdf",
+    "ccf": "B",
+    "core": "A*",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Incentivizing Long-term Engagement Under Limited Budget",
+    "author": [
+      "Shiqing Wu",
+      "and Quan Bai"
+    ],
+    "booktitle": "The 16th Pacific Rim International Conference on Artirficial Intelligence (PRICAI)",
+    "year": "2019",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_52",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Adaptive Incentive Allocation for Influence-aware Proactive Recommendation",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      "Byeong Ho Kang"
+    ],
+    "booktitle": "The 16th Pacific Rim International Conference on Artirficial Intelligence (PRICAI)",
+    "year": "2019",
+    "note": "",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-29908-8_51",
+    "ccf": "C",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "Greencommute: An Influence-aware Persuasive Recommendation Approach for Public-friendly Commute Options",
+    "author": [
+      "Shiqing Wu",
+      "Quan Bai",
+      "Sotsay Sengvong"
+    ],
+    "booktitle": "Journal of Systems Science and Systems Engineering",
+    "year": "2018",
+    "note": "",
+    "pdf": "https://link.springer.com/article/10.1007/s11518-018-5368-6",
+    "ccf": "",
+    "core": "",
+    "sjr": "Q2",
+    "jcr": "",
+    "type": "journal"
+  }
+]

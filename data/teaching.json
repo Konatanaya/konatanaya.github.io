@@ -1,0 +1,72 @@
+[
+  {
+    "institution": "CUM",
+    "course": "BITMZ033: Machine Learning",
+    "time": "Spring 2026"
+  },
+  {
+    "institution": "CUM",
+    "course": "BITCF017: Machine Learning",
+    "time": "Autumn 2025"
+  },
+  {
+    "institution": "CUM",
+    "course": "BITMZ023: Introduction to Web Design",
+    "time": "Spring 2025"
+  },
+  {
+    "institution": "UTS",
+    "course": "41181: Information Security and Management",
+    "time": "Spring 2024"
+  },
+  {
+    "institution": "TAFE",
+    "course": "AZ104/AZ204: Cloud Computing Foundations",
+    "time": "Autumn 2024"
+  },
+  {
+    "institution": "USQ",
+    "course": "CSC8003: Machine Learning",
+    "time": "Summer 2022"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Spring 2021"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT405: Programming for Intelligent Web Services and Applications",
+    "time": "Autumn 2021"
+  },
+  {
+    "institution": "UTAS",
+    "course": "KIT306/606: Data Analytics",
+    "time": "Spring 2020"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Spring 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Autumn 2019"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Spring 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603/ENSE600: Program Design and Construction/Software Construction",
+    "time": "Autumn 2018"
+  },
+  {
+    "institution": "AUT",
+    "course": "COMP603: Program Design and Construction",
+    "time": "Spring 2017"
+  }
+]
