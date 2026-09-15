@@ -429,19 +429,9 @@ nav a[data-current],
     margin-bottom: 16px;
 }
 
-#home-news>header {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: baseline;
-    gap: 16px;
-    margin-bottom: 16px;
-}
-
-#home-news>header .section-title {
-    margin-bottom: 0;
-}
-
-#home-news>header>a {
+#home-news>a {
+    display: table;
+    margin: 16px 0 0 auto;
     white-space: nowrap;
 }
 
@@ -546,15 +536,16 @@ nav a[data-current],
 }
 
 #principal-investigator figure {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: center;
-    gap: var(--student-grid-spacing);
     margin: 0;
 }
 
+#principal-investigator figure::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 #principal-investigator figcaption {
-    grid-column: span 2;
     min-width: 0;
     text-align: left;
     line-height: 1.65;
@@ -590,6 +581,19 @@ nav a[data-current],
     object-fit: cover;
     object-position: center;
     transition: transform var(--interaction-duration) ease-out;
+}
+
+#principal-investigator .team-photo {
+    position: relative;
+    float: left;
+    width: calc(33.333333% - 18.666667px);
+    margin: 0 var(--student-grid-spacing) 12px 0;
+    aspect-ratio: var(--student-photo-ratio);
+}
+
+#principal-investigator .team-photo img {
+    position: absolute;
+    inset: 0;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -865,12 +869,8 @@ footer {
 }
 
 @media (max-width: 900px) {
-    #principal-investigator figure {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    #principal-investigator figcaption {
-        grid-column: span 1;
+    #principal-investigator .team-photo {
+        width: calc(50% - 14px);
     }
 
     #research-students {
@@ -904,6 +904,18 @@ footer {
 }
 
 @media (max-width: 640px) {
+    #hero-portrait {
+        width: 90%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        width: 90%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
     #hero {
         max-width: none;
     }
@@ -913,18 +925,32 @@ footer {
     }
 
     #principal-investigator figure {
-        grid-template-columns: minmax(0, 1fr);
-        justify-items: center;
-        gap: 16px;
+        display: block;
     }
 
     #principal-investigator .team-photo {
+        float: none;
+        width: 90%;
+        max-width: 360px;
+        margin: 0 auto 16px;
+        aspect-ratio: var(--student-photo-ratio);
+    }
+
+    #research-students figure {
+        width: 90%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    #research-students .team-photo {
         width: 100%;
-        max-width: 100%;
+        max-width: none;
     }
 
     #principal-investigator figcaption {
-        width: 100%;
+        width: 90%;
+        max-width: 360px;
+        margin: 0 auto;
     }
 
     #conference-reviewing,

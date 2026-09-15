@@ -308,6 +308,7 @@ async function initializePanels(panels) {
 
     showPanel(getPanelIdFromURL(panels), panels);
     await Promise.all(panels.map(loadPanel));
+    window.StudentYears?.update();
     await Promise.all([initializeNews(), initializePublications()]);
     window.scrollTo(0, 0);
 }
