@@ -1,5 +1,44 @@
 [
   {
+    "title": "CD-ViewGNN: Persistence-Anchored Forecasting of Cluster-Density Dynamics in Event-Centred Discussions",
+    "author": [
+      "Xiaodan Wang",
+      "Yanbin Liu",
+      "Shiqing Wu",
+      "Yilin Zhang",
+      "Weihua Li",
+      "Quan Bai"
+    ],
+    "booktitle": "2026 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "C",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
+    "title": "TMBM: A Temporal Multi-Behavior Model for Influence Propagation in Social Networks",
+    "author": [
+	  "Pingping Cao",
+      "Wenbin Shen",
+      "Shiqing Wu",
+      "Weihua Li",
+      "Quan Bai"
+    ],
+    "booktitle": "2026 Principle and practice of data and Knowledge Acquisition Workshop (PKAW)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "C",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
     "title": "SPRL: Scalable Policy-based Reinforcement Learning for Dynamic Influence Maximization",
     "author": [
       "Wenbin Shen",
