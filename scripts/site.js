@@ -165,20 +165,71 @@ function createPublicationParagraph(publication) {
     return paragraph;
 }
 
-function addPublicationContent(container, publications, prefix) {
-    if (!container) return;
+function getPublicationPrefix(type) {
+    return { arxiv: 'A', conference: 'C', journal: 'J' }[type] || 'P';
+}
 
-    const sorted = [...publications].sort((first, second) => Number(second.year) - Number(first.year));
+function createPublicationNumbers(publications) {
+    const numbers = new Map();
+    const types = [...new Set(publications.map(publication => publication.type))];
+
+    types.forEach(type => {
+        const entries = publications
+            .filter(publication => publication.type === type)
+            .sort((first, second) => Number(second.year) - Number(first.year));
+        entries.forEach((publication, index) => {
+            numbers.set(publication, `[${getPublicationPrefix(type)}${entries.length - index}]`);
+        });
+    });
+    return numbers;
+}
+
+function getPublicationYearGroup(publication) {
+    const year = Number(publication.year);
+    if (!Number.isInteger(year)) return 'Other';
+    return year <= 2022 ? '2022 and Earlier' : String(year);
+}
+
+function groupPublicationsByYear(publications) {
+    const sorted = [...publications]
+        .sort((first, second) => Number(second.year) - Number(first.year));
+
+    return sorted.reduce((groups, publication) => {
+        const label = getPublicationYearGroup(publication);
+        if (!groups.has(label)) groups.set(label, []);
+        groups.get(label).push(publication);
+        return groups;
+    }, new Map());
+}
+
+function createPublicationYearSection(label, publications, numbers) {
+    const section = document.createElement('section');
+    const heading = document.createElement('h2');
+    const list = document.createElement('dl');
     const fragment = document.createDocumentFragment();
-    sorted.forEach((publication, index) => {
+    heading.className = 'section-title';
+    heading.textContent = label;
+
+    publications.forEach(publication => {
         const number = document.createElement('dt');
         const citation = document.createElement('dd');
-        number.textContent = `[${prefix}${sorted.length - index}]`;
+        number.textContent = numbers.get(publication);
         citation.append(createPublicationParagraph(publication));
         fragment.append(number, citation);
     });
-    container.replaceChildren(fragment);
-    container.closest('section').hidden = !sorted.length;
+
+    list.append(fragment);
+    section.append(heading, list);
+    return section;
+}
+
+function addPublicationContent(panel, publications) {
+    const numbers = createPublicationNumbers(publications);
+    const fragment = document.createDocumentFragment();
+    groupPublicationsByYear(publications).forEach((entries, label) => {
+        fragment.append(createPublicationYearSection(label, entries, numbers));
+    });
+    panel.append(fragment);
 }
 
 async function initializePublications() {
@@ -187,19 +238,12 @@ async function initializePublications() {
 
     try {
         const publications = await loadPublications();
-        const categories = [
-            ['arxiv', 'arxiv-list', 'A'],
-            ['conference', 'conference-list', 'C'],
-            ['journal', 'journal-list', 'J']
-        ];
-        categories.forEach(([type, id, prefix]) => {
-            addPublicationContent(panel.querySelector(`#${id}`),
-                publications.filter(publication => publication.type === type), prefix);
-        });
+        panel.querySelectorAll(':scope > section').forEach(section => section.remove());
+        addPublicationContent(panel, publications);
     } catch (error) {
-        panel.querySelectorAll('dl').forEach(container => {
-            container.textContent = 'Unable to load publications. Please refresh to try again.';
-        });
+        const message = document.createElement('p');
+        message.textContent = 'Unable to load publications. Please refresh to try again.';
+        panel.append(message);
         console.error(error);
     }
 }

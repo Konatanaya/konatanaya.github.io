@@ -1,5 +1,22 @@
 [
   {
+    "title": "Boundary-Aware Set Control for Hierarchical Reinforcement Learning in Flock Herding",
+    "author": [
+      "Hai Huang",
+      "Shiqing Wu",
+      "Quan Bai"
+    ],
+    "booktitle": "The 27th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA)",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "",
+    "core": "B",
+    "sjr": "",
+    "jcr": "",
+    "type": "conference"
+  },
+  {
     "title": "CD-ViewGNN: Persistence-Anchored Forecasting of Cluster-Density Dynamics in Event-Centred Discussions",
     "author": [
       "Xiaodan Wang",
