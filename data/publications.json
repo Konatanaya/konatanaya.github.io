@@ -1,5 +1,23 @@
 [
   {
+    "title": "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation",
+    "author": [
+      "Linjiang Guo",
+      "Nitin Bisht",
+      "Shiqing Wu",
+      "Guandong Xu"
+    ],
+    "booktitle": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "Boundary-Aware Set Control for Hierarchical Reinforcement Learning in Flock Herding",
     "author": [
       "Hai Huang",
@@ -39,7 +57,7 @@
   {
     "title": "TMBM: A Temporal Multi-Behavior Model for Influence Propagation in Social Networks",
     "author": [
-	  "Pingping Cao",
+      "Pingping Cao",
       "Wenbin Shen",
       "Shiqing Wu",
       "Weihua Li",
@@ -257,7 +275,7 @@
     "title": "Diagnosing and Mitigating Mid-Sequence Degradation in Recommender Systems",
     "author": [
       "Linjiang Guo",
-      "Nitin Bishit",
+      "Nitin Bisht",
       "Shiqing Wu",
       "Huan Huo",
       "Xianzhi Wang",
