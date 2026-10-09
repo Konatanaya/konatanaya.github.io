@@ -602,25 +602,25 @@ nav a[data-current],
     }
 }
 
-#research-students {
+.research-students {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--student-grid-spacing);
 }
 
-#research-students figure {
+.research-students figure {
     min-width: 0;
     margin: 0;
     text-align: left;
 }
 
-#research-students figcaption {
+.research-students figcaption {
     margin-top: 12px;
     line-height: 1.65;
     overflow-wrap: anywhere;
 }
 
-#research-students figcaption>header {
+.research-students figcaption>header {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -629,17 +629,17 @@ nav a[data-current],
     margin-bottom: 10px;
 }
 
-#research-students figcaption>header h3 {
+.research-students figcaption>header h3 {
     margin: 0;
 }
 
-#research-students figcaption>header span {
+.research-students figcaption>header span {
     color: var(--muted-text-color);
     font-size: var(--font-size-small);
     white-space: nowrap;
 }
 
-:is(#research-students, #principal-investigator) h3 {
+:is(.research-students, #principal-investigator) h3 {
     margin: 0 0 10px;
     font-size: var(--font-size-team-name);
     font-weight: 600;
@@ -655,14 +655,14 @@ nav a[data-current],
     line-height: 1.5;
 }
 
-#research-students p {
+.research-students p {
     margin: 0;
     text-align: left;
     color: var(--muted-text-color);
     font-size: var(--font-size-base);
 }
 
-#research-students p strong {
+.research-students p strong {
     color: var(--research-text-color);
     font-weight: 500;
 }
@@ -873,7 +873,7 @@ footer {
         width: calc(50% - 14px);
     }
 
-    #research-students {
+    .research-students {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -920,7 +920,7 @@ footer {
         max-width: none;
     }
 
-    #research-students {
+    .research-students {
         grid-template-columns: minmax(0, 1fr);
     }
 
@@ -936,13 +936,13 @@ footer {
         aspect-ratio: var(--student-photo-ratio);
     }
 
-    #research-students figure {
+    .research-students figure {
         width: 90%;
         max-width: 360px;
         margin: 0 auto;
     }
 
-    #research-students .team-photo {
+    .research-students .team-photo {
         width: 100%;
         max-width: none;
     }
