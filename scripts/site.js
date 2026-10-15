@@ -3,35 +3,15 @@ function updateCopyright() {
     if (year) year.textContent = String(new Date().getFullYear());
 }
 
-const panelLoads = new WeakMap();
-
 async function loadPanel(panel) {
-    if (panel.dataset.loaded === 'true') return true;
-    if (panelLoads.has(panel)) return panelLoads.get(panel);
-
     const path = `pages/${panel.id}.html`;
-    const request = (async () => {
-        panel.setAttribute('aria-busy', 'true');
-        try {
-            const response = await fetch(path);
-            if (!response.ok) throw new Error(`Unable to load ${path}: ${response.status}`);
-            panel.innerHTML = await response.text();
-            panel.dataset.loaded = 'true';
-            return true;
-        } catch (error) {
-            panel.textContent = 'Unable to load this page. Please refresh to try again.';
-            console.error(error);
-            return false;
-        } finally {
-            panel.removeAttribute('aria-busy');
-        }
-    })();
-
-    panelLoads.set(panel, request);
     try {
-        return await request;
-    } finally {
-        panelLoads.delete(panel);
+        const response = await fetch(path);
+        if (!response.ok) throw new Error(`Unable to load ${path}: ${response.status}`);
+        panel.innerHTML = await response.text();
+    } catch (error) {
+        panel.textContent = 'Unable to load this page. Please refresh to try again.';
+        console.error(error);
     }
 }
 
@@ -48,24 +28,14 @@ function parseNewsDate(value) {
     return date.getDate() === Number(match[1]) ? date : null;
 }
 
-let newsRequest;
+async function loadNews() {
+    const response = await fetch('data/news.json');
+    if (!response.ok) throw new Error(`Unable to load news: ${response.status}`);
 
-function loadNews() {
-    if (!newsRequest) {
-        newsRequest = (async () => {
-            const response = await fetch('data/news.json');
-            if (!response.ok) throw new Error(`Unable to load news: ${response.status}`);
-
-            const data = await response.json();
-            return data.map(item => ({ date: parseNewsDate(item.date), content: item.content }))
-                .filter(item => item.date && typeof item.content === 'string')
-                .sort((first, second) => second.date - first.date);
-        })().catch(error => {
-            newsRequest = null;
-            throw error;
-        });
-    }
-    return newsRequest;
+    const data = await response.json();
+    return data.map(item => ({ date: parseNewsDate(item.date), content: item.content }))
+        .filter(item => item.date && typeof item.content === 'string')
+        .sort((first, second) => second.date - first.date);
 }
 
 function createNewsItem(content) {
@@ -133,20 +103,10 @@ async function initializeNews() {
     }
 }
 
-let publicationsRequest;
-
-function loadPublications() {
-    if (!publicationsRequest) {
-        publicationsRequest = (async () => {
-            const response = await fetch('data/publications.json');
-            if (!response.ok) throw new Error(`Unable to load publications: ${response.status}`);
-            return response.json();
-        })().catch(error => {
-            publicationsRequest = null;
-            throw error;
-        });
-    }
-    return publicationsRequest;
+async function loadPublications() {
+    const response = await fetch('data/publications.json');
+    if (!response.ok) throw new Error(`Unable to load publications: ${response.status}`);
+    return response.json();
 }
 
 function appendPublicationAuthors(paragraph, authors) {
@@ -272,18 +232,6 @@ function addPublicationContent(panel, publications) {
     panel.append(fragment);
 }
 
-async function preparePanel(panel) {
-    if (panel.dataset.ready === 'true') return;
-
-    const loaded = await loadPanel(panel);
-    if (!loaded) return;
-
-    window.StudentYears?.update(panel);
-    if (panel.id === 'home' || panel.id === 'news') await initializeNews();
-    if (panel.id === 'publications') await initializePublications();
-    panel.dataset.ready = 'true';
-}
-
 async function initializePublications() {
     const panel = document.getElementById('publications');
     if (!panel) return;
@@ -385,15 +333,9 @@ function createPanelSwitcher(panels) {
         try {
             while (true) {
                 const current = panels.find(panel => !panel.hidden);
-                if (current?.id === requestedId) {
-                    await preparePanel(current);
-                    break;
-                }
+                if (current?.id === requestedId) break;
 
                 const next = panels.find(panel => panel.id === requestedId);
-                await preparePanel(next);
-                if (next.id !== requestedId) continue;
-
                 if (current) await animatePanel(current, 'out');
                 showPanel(next.id, panels);
                 window.scrollTo(0, 0);
@@ -408,10 +350,10 @@ function createPanelSwitcher(panels) {
 async function initializePanels(panels) {
     if (!panels.length) return;
 
-    const initialId = getPanelIdFromURL(panels);
-    const initialPanel = panels.find(panel => panel.id === initialId);
-    showPanel(initialId, panels);
-    await preparePanel(initialPanel);
+    showPanel(getPanelIdFromURL(panels), panels);
+    await Promise.all(panels.map(loadPanel));
+    window.StudentYears?.update();
+    await Promise.all([initializeNews(), initializePublications()]);
     window.scrollTo(0, 0);
 }
 
