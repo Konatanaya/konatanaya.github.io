@@ -335,8 +335,8 @@ function createPanelSwitcher(panels) {
                 const current = panels.find(panel => !panel.hidden);
                 if (current?.id === requestedId) break;
 
-                const next = panels.find(panel => panel.id === requestedId);
                 if (current) await animatePanel(current, 'out');
+                const next = panels.find(panel => panel.id === requestedId);
                 showPanel(next.id, panels);
                 window.scrollTo(0, 0);
                 await animatePanel(next, 'in');
@@ -455,6 +455,29 @@ function initializeNavbarScroll() {
     window.addEventListener('scroll', updateNavbarBackground, { passive: true });
 }
 
+async function loadSiteFonts() {
+    if (!document.fonts) return;
+
+    const styles = getComputedStyle(document.documentElement);
+    const bodyFamily = styles.getPropertyValue('--font-family-body').trim();
+    const headingFamily = styles.getPropertyValue('--font-family-heading').trim();
+    const bodyWeight = styles.getPropertyValue('--font-weight-body').trim() || '400';
+    const headingWeight = styles.getPropertyValue('--font-weight-heading').trim() || '500';
+    const fonts = [
+        `${bodyWeight} 1em ${bodyFamily}`,
+        `500 1em ${bodyFamily}`,
+        `600 1em ${bodyFamily}`,
+        `italic ${bodyWeight} 1em ${bodyFamily}`,
+        `${headingWeight} 1em ${headingFamily}`
+    ];
+
+    const results = await Promise.allSettled(fonts.map(font => document.fonts.load(font)));
+    results.forEach(result => {
+        if (result.status === 'rejected') console.warn('Unable to load a font:', result.reason);
+    });
+    await document.fonts.ready;
+}
+
 function showLoadingScreen() {
     const loading = document.getElementById('site-loading');
     if (!loading) return;
@@ -505,7 +528,7 @@ async function initializeSite() {
         initializePanelLinks(panels, switchPanel);
         initializeNavigation();
         initializeNavbarScroll();
-        await initializePanels(panels);
+        await Promise.all([initializePanels(panels), loadSiteFonts()]);
     } catch (error) {
         console.error(error);
     } finally {
