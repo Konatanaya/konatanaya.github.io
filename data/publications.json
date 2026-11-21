@@ -1,5 +1,24 @@
 [
   {
+    "title": "Dynamic Self-correcting Interaction Network",
+    "author": [
+      "Haoran Tang",
+      "Pangjing Wu",
+      "Shiqing Wu",
+      "Guandong Xu",
+      "Qing Li"
+    ],
+    "booktitle": "ACM Transactions on Information Systems",
+    "year": "2026",
+    "note": "",
+    "pdf": "",
+    "ccf": "A",
+    "core": "",
+    "sjr": "Q1",
+    "jcr": "Q1",
+    "type": "journal"
+  },
+  {
     "title": "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation",
     "author": [
       "Linjiang Guo",
